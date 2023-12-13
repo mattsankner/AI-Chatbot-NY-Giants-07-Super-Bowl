@@ -12,6 +12,37 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from playerinfo import player_info
 
+#New addition
+import random
+
+prev_question = ""  # Add this at the start of your script
+
+def reset_conversation():
+    global prev_question
+    prev_question = ""
+
+def generate_angry_response():
+    responses = [
+        "I previously answered that question. Is there anything else I can help you with?",
+        "Stop asking that! Can I answer something else?",
+        "Stop messing with me... I am only trying to help! Ask a different question.",
+        "I will not answer that again. Ask something different!",
+        "Please try a different question, I already answered that."
+    ]
+    return random.choice(responses)
+
+def generate_courtesy_response():
+    responses = [
+        "You are welcome! If you have any further questions, feel free to ask.",
+        "No problem! Let me know if I can answer any other questions.",
+        "Thanks for being polite. I am glad I could help.",
+        "I am here to help! Let me know if I can be of any other assistance to you.",
+        "You got it!",
+        "Absolutely, let me know if you need anything else from me."
+    ]
+    return random.choice(responses)
+
+
 # Download necessary NLTK data
 nltk.download('wordnet')
 nltk.download('punkt')
@@ -144,13 +175,32 @@ def extract_question_words(sentence):
     # Basic implementation, this should be expanded
     return ["Who", "What", "When", "Where", "Why", "How"]
 
-# Process user input
 def process_input(user_input, data):
-    # Check if the input is a question or a statement to add data
-    if "?" in user_input or user_input.endswith('.'):
-        return search_data(user_input, data)
-    else:
-        return add_new_data(user_input, data)
+    global prev_question
+
+    # Spell correction and other preprocessing can go here
+    # For example:
+    # corrected_input = spell_correction(user_input)
+    # Instead of 'user_input' we will use 'corrected_input' below
+
+    # Check if it's a greeting first
+    if user_input.lower() == 'hello':
+        return "Hello! I am your New York Football Giant's Chat Assistant! How can I help you today?"
+
+    # Check if the input is a polite statement
+    polite_words = ["please", "thank you", "thanks", "appreciate it"]
+    if any(word in user_input.lower() for word in polite_words):
+        reset_conversation()
+        return generate_courtesy_response()
+
+    # Check if the question is repeated
+    if user_input.lower() == prev_question.lower():
+        return generate_angry_response()
+
+    # If it's a new question, process it and save it as the previous question
+    prev_question = user_input
+    response = search_data(user_input, data)
+    return response
 
 # Updated search_data function
 def search_data(query, data):
