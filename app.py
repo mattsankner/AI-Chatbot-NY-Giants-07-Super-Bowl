@@ -80,7 +80,7 @@ def extract_query_info(query):
                 return "highlights", player
             
             # Check for keywords related to performance
-            if any(word in query.lower() for word in ["statistics", "performance", "perform", "stats","stat","how did", "how was","how would", "play", "played", "plays", "playing", "game", "games", "gameday", "gamedays", "match", "matches", "matched", "matching", "season", "seasons"]):
+            if any(word in query.lower() for word in ["statistics", "performance", "perform", "stats","stat","how did", "how was","how would", "play", "played", "plays", "playing", "game", "games", "gameday", "gamedays", "match", "matches", "matched", "matching", "season", "seasons", "how"]):
                 
                 # Check for keywords related to playoffs
                 if any(playoff_word in query.lower() for playoff_word in ["playoffs", "post-season","postseason", "post-season", "postseasons", "post-seasons", "postseason's", "post-season's", "postseasons'", "post-seasons'", "postseasons's", "post-seasons's"]):
@@ -102,6 +102,13 @@ def extract_query_info(query):
 
 def find_best_match(query, data):
     query_type, entity = extract_query_info(query)
+
+    # Check if the query is asking for specific individuals
+    if "who" in query.lower():
+        # Look for a sentence in the JSON data that has 'Who' in its question_words
+        for item in data['data']:
+            if 'Who' in item['question_words']:
+                return item['sentence']
 
     # Respond with player's highlights information
     if query_type == "highlights" and entity in player_info:
@@ -151,15 +158,25 @@ def save_data(filename, data):
 
 # Process and add new data to JSON
 def add_new_data(sentence, data):
-    # This function needs to be expanded based on your data structure and needs
-    # Here is a basic implementation
+    # This function now extracts keywords and question words more effectively
+    doc = nlp(sentence)
     new_entry = {
         "sentence": sentence,
-        "keywords": extract_keywords(sentence),
-        "question_words": extract_question_words(sentence)
+        "keywords": [token.text for token in doc if token.is_alpha and not token.is_stop],
+        "question_words": [token.text for token in doc if token.text.lower() in question_indicators]
     }
     data['data'].append(new_entry)
+    save_data('giants.json', data)  # Assuming you want to save to the file immediately
     return "New information added: " + sentence
+
+
+
+#introduced normalized_input to handle the case insensitivity and trimming of the user input.
+#I kept the checks for greeting and polite statements at the top since they should override other types of input.
+#I added a check for repeated questions using the prev_question global variable.
+#After all checks, the function determines whether the input is a question or a new data statement based on the presence of a question mark or question indicators.
+#If it's a question, the search_data function is called; otherwise, the add_new_data function is called.
+
 
 # Extract keywords from a sentence
 def extract_keywords(sentence):
@@ -175,32 +192,52 @@ def extract_question_words(sentence):
     # Basic implementation, this should be expanded
     return ["Who", "What", "When", "Where", "Why", "How"]
 
+question_indicators = [
+    "who", "what", "when", "where", "why", "how", 
+    "is", "can", "does", "do", "are", "will", 
+    "shall", "should", "would", "could", "may", "might", "tell me", 
+    "tell", "show me", "show", "give me", "give", "explain", "describe", 
+    "list", "name", "define", "state", "mention", "identify", "provide", "write", 
+    "say", "speak", "talk", "discuss", "present", "outline", "summarize", "compare", 
+    "contrast", "differentiate", "distinguish", "analyze", "evaluate", "assess", 
+    "critique", "justify", "argue", "prove", "demonstrate", "solve", "calculate", 
+    "determine", "find", "measure", "draw", "sketch", "construct", "design", "plan", 
+    "create", "compose", "organize", "formulate", "develop", "prepare", "propose", 
+    "recommend", "suggest", "improve", "revise", "modify", "adapt", "adjust", "refine", 
+    "reframe", "refactor", "reorganize", "restructure", "rethink", "reconsider", "reassess", 
+    "re-evaluate", "re-examine", "revisit", "rework", "rewrite", "rephrase", "reword", "restate", 
+    "reformulate", "recreate", "rebuild", "reconstruct", "reinvent", "reproduce", "de-construct"
+]
+
 def process_input(user_input, data):
     global prev_question
 
-    # Spell correction and other preprocessing can go here
-    # For example:
-    # corrected_input = spell_correction(user_input)
-    # Instead of 'user_input' we will use 'corrected_input' below
+    # Normalize input for consistency
+    normalized_input = user_input.lower().strip()
 
-    # Check if it's a greeting first
-    if user_input.lower() == 'hello':
-        return "Hello! I am your New York Football Giant's Chat Assistant! How can I help you today?"
+    # Check if it's a greeting
+    if normalized_input == 'hello':
+        return "Hello! I am your New York Football Giant's 2007 SuperBowl Run Chat Assistant! How can I help you today?"
 
-    # Check if the input is a polite statement
+    # Check for polite statements
     polite_words = ["please", "thank you", "thanks", "appreciate it"]
-    if any(word in user_input.lower() for word in polite_words):
+    if any(polite_word in normalized_input for polite_word in polite_words):
         reset_conversation()
         return generate_courtesy_response()
 
-    # Check if the question is repeated
-    if user_input.lower() == prev_question.lower():
+    # Check for repeated questions
+    if normalized_input == prev_question:
         return generate_angry_response()
 
-    # If it's a new question, process it and save it as the previous question
-    prev_question = user_input
-    response = search_data(user_input, data)
-    return response
+    # Save the current question for comparison in the next interaction
+    prev_question = normalized_input
+
+    # If the input is a question, search for an answer
+    if normalized_input.endswith('?') or normalized_input.split()[0] in question_indicators:
+        return search_data(user_input, data)
+    
+    # If the input is not a question, treat it as new data to add
+    return add_new_data(user_input, data)
 
 # Updated search_data function
 def search_data(query, data):
