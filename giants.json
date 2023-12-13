@@ -1,63 +1,33 @@
 {
 "data": [
     {
-    "sentence": "Another drama unfolded with Michael Strahan, the veteran defensive end.",
-    "keywords": ["Michael Strahan", "drama", "defensive end"],
-    "question_words": ["Who", "What"]
-    },
-    {
-    "sentence": "Disillusioned with Coughlin's methods, Strahan held out for the entirety of training camp, pondering retirement after fourteen seasons.",
-    "keywords": ["Disillusioned", "Coughlin", "Strahan", "training camp", "retirement", "fourteen seasons"],
-    "question_words": ["Why", "Who", "What", "How long"]
+    "sentence": "Drama unfolded with Michael Strahan, the veteran defensive end. Disillusioned with Coughlin's methods, Strahan held out for the entirety of training camp, pondering retirement after fourteen seasons.",
+    "keywords": ["Michael Strahan", "drama", "defensive end", "held out", "training camp", "retirement", "fourteen seasons"],
+    "question_words": ["Who", "What", "How long", "Why"]
     },
     {
     "sentence": "Yet, mere weeks before the season began, he returned, accepted a substantial fine, and was elected a team captain, embodying the resilience and complexities within the Giants' locker room.",
     "keywords": ["returned", "substantial fine", "team captain", "resilience", "complexities", "Giants' locker room"],
-    "question_words": ["When", "Who", "What", "Why"]
+    "question_words": ["When", "Who", "What", "Why", "How long"]
     },
     {
-    "sentence": "With the stage set against a backdrop of doubt, the Giants' early season was challenging.",
-    "keywords": ["stage set", "backdrop of doubt", "Giants", "early season", "challenging"],
-    "question_words": ["Why", "What", "When"]
-    },
-    {
-    "sentence": "They started with two losses, a continuation of the previous season's slide.",
-    "keywords": ["two losses", "continuation", "previous season", "slide"],
-    "question_words": ["How many", "What", "Which"]
+    "sentence": "With the stage set against a backdrop of doubt, the Giants' early season was challenging. They started with two losses, a continuation of the previous season's slide.",
+    "keywords": ["stage set", "backdrop of doubt", "Giants", "early season", "challenging", "two losses", "continuation", "previous season", "slide"],
+    "question_words": ["Why", "What", "When", "Which", "How many"]
     },
     {
     "sentence": "However, the tide began to turn in Week 3. The Giants rallied for a dramatic win, one that would spark a six-game winning streak.",
-    "keywords": ["Week 3", "Giants", "dramatic win", "six-game winning streak"],
+    "keywords": ["tide turn", "Week 3", "Giants", "dramatic win", "six-game winning streak"],
     "question_words": ["When", "Who", "What"]
     },
     {
-    "sentence": "Eli Manning's leadership began to emerge during this time.",
-    "keywords": ["Eli Manning", "leadership", "emerge"],
-    "question_words": ["Who", "What", "When"]
+    "sentence": "Eli Manning's leadership began to emerge during this time. Though his statistics were not dazzling, he showed poise in crucial moments. The quarterback, often a target for critics, was starting to show signs of the clutch performer he would become known as.",
+    "keywords": ["Eli Manning", "leadership", "leader", "grow into", "leadership development", "emerge as leader", "statistics", "not dazzling", "poise", "crucial moments", "quarterback", "critics", "clutch performer"],
+    "question_words": ["Who", "What", "When", "How", "Why"]
     },
     {
-    "sentence": "Though his statistics were not dazzling, he showed poise in crucial moments.",
-    "keywords": ["statistics", "not dazzling", "poise", "crucial moments"],
-    "question_words": ["How", "What", "When"]
-    },
-    {
-    "sentence": "The quarterback, often a target for critics, was starting to show signs of the clutch performer he would become known as.",
-    "keywords": ["quarterback", "critics", "clutch performer"],
-    "question_words": ["Who", "What", "Why"]
-    },
-    {
-    "sentence": "The team's transformation was a gradual process.",
-    "keywords": ["team", "transformation", "gradual process"],
-    "question_words": ["What", "How"]
-    },
-    {
-    "sentence": "Tom Coughlin's leadership style, once a source of contention, began to pay dividends.",
-    "keywords": ["Tom Coughlin", "leadership style", "contention", "dividends"],
-    "question_words": ["Who", "What", "Why"]
-    },
-    {
-    "sentence": "His decision to involve players in leadership roles created a stronger bond within the team.",
-    "keywords": ["decision", "players", "leadership roles", "stronger bond", "team"],
+    "sentence": "Tom Coughlin's leadership style, once a source of contention, began to pay dividends. His decision to involve players in leadership roles created a stronger bond within the team.",
+    "keywords": ["Tom Coughlin", "leadership style", "contention", "dividends", "decision", "involve players", "leadership roles", "stronger bond", "team"],
     "question_words": ["Who", "What", "Why"]
     },
     {
@@ -486,7 +456,7 @@
         "question_words": ["Who", "What", "How"]
       },
       {
-        "sentence": "September 2007. Opening night for the NFL season.",
+        "sentence": "The opening night for the NFL season was in September 2007",
         "keywords": ["September 2007", "Opening night", "NFL season"],
         "question_words": ["When", "What"]
       },
@@ -519,11 +489,6 @@
         "sentence": "Heck, even having them make the playoffs seemed like a pipe dream.",
         "keywords": ["playoffs", "pipe dream"],
         "question_words": ["What", "How"]
-      },
-      {
-        "sentence": "And why not?",
-        "keywords": ["why not"],
-        "question_words": ["Why"]
       },
       {
         "sentence": "Sure, the Giants were coming off back to back playoff years but that also meant back to back playoff embarrassment.",

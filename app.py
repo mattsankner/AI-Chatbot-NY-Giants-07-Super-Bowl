@@ -40,39 +40,64 @@ tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_data)
 
 # Regex pattern to extract information from queries
 def extract_query_info(query):
-    role_pattern = r"(?i)\b(?:what (?:position|role) (?:does|did)|who (?:is|was|are|were))\b\s*([\w\s']+)"
+    # Iterate through each player in player_info
+    for player in player_info:
+        if player.lower() in query.lower():
+
+             # Check for keywords related to highlights
+            if any(word in query.lower() for word in ["highlight", "highlights", "known for", "pinnacle", "best", "best play", "memory", "memorable", "notable", "famous", "iconic"]):
+                return "highlights", player
+            
+            # Check for keywords related to performance
+            if any(word in query.lower() for word in ["statistics", "performance", "perform", "stats","stat","how did", "how was","how would", "play", "played", "plays", "playing", "game", "games", "gameday", "gamedays", "match", "matches", "matched", "matching", "season", "seasons"]):
+                
+                # Check for keywords related to playoffs
+                if any(playoff_word in query.lower() for playoff_word in ["playoffs", "post-season","postseason", "post-season", "postseasons", "post-seasons", "postseason's", "post-season's", "postseasons'", "post-seasons'", "postseasons's", "post-seasons's"]):
+                    return "playoffs_performance", player
+                return "regular_performance", player
+
+            # Default to role if no specific keyword is found
+            return "role", player
+
+    # Handle general info queries
     general_info_pattern = r"(?i)\btell me about\b\s*([\w\s']+)"
-    
-    for pattern, query_type in [(role_pattern, "role"), (general_info_pattern, "general_info")]:
-        match = re.search(pattern, query)
-        if match:
-            return query_type, match.group(1).strip()
+    general_info_match = re.search(general_info_pattern, query)
+    if general_info_match:
+        return "general_info", general_info_match.group(1).strip()
 
     return "general", None
 
 
+
 def find_best_match(query, data):
     query_type, entity = extract_query_info(query)
+
+    # Respond with player's highlights information
+    if query_type == "highlights" and entity in player_info:
+        highlights_info = player_info[entity].get("highlights", "No specific highlights data available.")
+        return highlights_info
     
-    if query_type == "role" and entity in player_info:
+    # Respond with player's regular season performance information
+    if query_type == "regular_performance" and entity in player_info:
+        performance_info = player_info[entity].get("performance", "No specific performance data available.")
+        return performance_info
+
+    # Respond with player's playoffs performance information
+    if query_type == "playoffs_performance" and entity in player_info:
+        playoffs_info = player_info[entity].get("playoffs", "No specific playoffs data available.")
+        return playoffs_info
+
+    # Respond with player's role
+    if query_type == "role":
         return f"{entity} was a {player_info[entity]['role']} for the New York Giants."
 
+    # Handle general info queries
     if query_type == "general_info" and entity in player_info:
-        role_info = player_info[entity].get("role", "No specific role data available.")
+        role_info = player_info[entity].get("role", "")
         performance_info = player_info[entity].get("performance", "")
         return f"{entity} was a {role_info} for the New York Giants. {performance_info}"
 
-    if query_type == "action" and entity in player_info:
-        action_info = player_info[entity].get("performance", "No specific action data available.")
-        return action_info
-
-    if query_type == "group":
-        players = [player for player, info in player_info.items() if info['role'].startswith(entity.lower())]
-        if players:
-            return f"{', '.join(players)} were the {entity.lower()} for the New York Giants."
-        else:
-            return search_with_tf_idf(query, data)
-
+    # Fallback to TF-IDF for other queries
     return search_with_tf_idf(query, data)
 
 def search_with_tf_idf(query, data):
@@ -83,9 +108,10 @@ def search_with_tf_idf(query, data):
     best_match_index = np.argmax(cosine_similarities)
 
     # Check if a relevant match is found
-    if cosine_similarities[best_match_index] > 0.1:
+    if cosine_similarities[best_match_index] > 0.2:  # Adjusted threshold
         return data['data'][best_match_index]['sentence']
     return "I'm sorry, I don't have information on that."
+
 
 # Save the JSON data
 def save_data(filename, data):
@@ -106,9 +132,12 @@ def add_new_data(sentence, data):
 
 # Extract keywords from a sentence
 def extract_keywords(sentence):
+    # Custom logic to extract more relevant keywords
     doc = nlp(sentence)
+    # Example: Extract Named Entities and Noun Phrases
     entities = [ent.text for ent in doc.ents]
-    return entities if entities else [word.lower() for word in word_tokenize(sentence) if word.isalpha()]
+    noun_phrases = [np.text for np in doc.noun_chunks]
+    return entities + noun_phrases
 
 # Placeholder for extracting question words (needs a more sophisticated implementation)
 def extract_question_words(sentence):
