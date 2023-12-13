@@ -103,13 +103,6 @@ def extract_query_info(query):
 def find_best_match(query, data):
     query_type, entity = extract_query_info(query)
 
-    # Check if the query is asking for specific individuals
-    if "who" in query.lower():
-        # Look for a sentence in the JSON data that has 'Who' in its question_words
-        for item in data['data']:
-            if 'Who' in item['question_words']:
-                return item['sentence']
-
     # Respond with player's highlights information
     if query_type == "highlights" and entity in player_info:
         highlights_info = player_info[entity].get("highlights", "No specific highlights data available.")

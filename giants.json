@@ -823,7 +823,6 @@
                 "Eli Manning"
             ],
             "question_words": [
-                
                 "What",
                 "How"
             ]
@@ -2058,6 +2057,15 @@
                 "How",
                 "Why"
             ]
+        },
+        {
+            "sentence": "Justin Tuck role",
+            "keywords": [
+                "Justin",
+                "Tuck",
+                "role"
+            ],
+            "question_words": []
         }
     ]
 }
