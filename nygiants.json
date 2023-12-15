@@ -251,8 +251,8 @@
             "sentence": "The offensive line, an unsung hero, provided the stability that allowed the offense to function effectively.",
             "context": "Football Position Group",
             "entities": [
+                "What",
                 "Offensive Line",
-                "Offensive Lines",
                 "Offense",
                 "Offenses",
                 "Offensive",
@@ -270,7 +270,8 @@
                 "offensive line",
                 "unit",
                 "unsung hero"
-            ]
+            ],
+            "question_type": ["what", "how"]
         },
         {
             "sentence": "At the dawn of the 2007 NFL season, the New York Giants were not perceived as contenders for the Super Bowl.",
@@ -1101,8 +1102,12 @@
                 "Protection",
                 "Eli Manning",
                 "Receivers",
-                "Running game"
-            ]
+                "Running game",
+                "provide",
+                "perform",
+                "do"
+            ],
+            "question_type": ["what", "how"]
         },
         {
             "sentence": "Manning's late-game poise became a defining trait of his quarterbacking throughout the season and into the playoffs.",
@@ -1856,7 +1861,12 @@
             "context": "Running Game Strength in Football",
             "entities": [
                 "Brandon Jacobs",
-                "Ahmad Bradshaw"
+                "Ahmad Bradshaw",
+                "Running",
+                "Backs",
+                "Backfield",
+                "Running Backs",
+                "Running Game"
             ],
             "actions": [
                 "Powered running game",
@@ -1873,12 +1883,31 @@
                 "Ahmad Bradshaw",
                 "Energy",
                 "Change-of-pace"
-            ]
+            ],
+            "question_type": ["who", "how"]
         },
         {
-            "sentence": "The offensive line, featuring Chris Snee, Shaun O'Hara, and David Diehl, provided the necessary protection for Manning and opened up lanes for the run game.",
-            "context": "Role of the Offensive Line in Football",
+            "sentence": "The offensive line featured Chris Snee, Shaun O'Hara, and David Diehl, Rich Seubert, and Kareem MacKenzie.",
+            "context": "Players on the offensive line",
             "entities": [
+                "players",
+                "members",
+                "cogs",
+                "Chris Snee",
+                "Shaun O'Hara",
+                "David Diehl",
+                "Rich Seubert",
+                "Kareem MacKenzie",
+                "MacKenzie",
+                "Seubert",
+                "Diehl",
+                "O'Hara",
+                "Snee",
+                "offensive",
+                "line",
+                "Offensive Line",
+                "unit",
+                "offensive line",
                 "Chris Snee",
                 "Shaun O'Hara",
                 "David Diehl"
@@ -1894,8 +1923,9 @@
                 "David Diehl",
                 "Protection",
                 "Run game"
-            ]
-        },
+            ],
+            "question_type": ["who"]
+        },      
         {
             "sentence": "The opening night for the NFL season was in September 2007",
             "context": "NFL Season Opening",
@@ -1929,7 +1959,8 @@
                 "Hosting",
                 "New Orleans Saints",
                 "Thursday night opener"
-            ]
+            ],
+            "question_type": ["who", "what"]
         },
         {
             "sentence": "During the course of pregame on NFL Network, the broadcast crew were asked for their Super Bowl predictions.",

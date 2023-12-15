@@ -105,51 +105,60 @@ def extract_query_info(query):
 
     return "general", None
 
-
+def is_who_question(query):
+    return 'who' in query.lower().split()
 
 def find_best_match(query, data):
-    query_type, entity = extract_query_info(query)
-
-    # Respond with player's highlights information
-    if query_type == "highlights" and entity in player_info:
-        highlights_info = player_info[entity].get("highlights", "No specific highlights data available.")
-        return highlights_info
+    if is_who_question(query):
+        return handle_who_question(query, data)
+    else:
+        return search_with_tf_idf(query, data)
     
-    # Respond with player's regular season performance information
-    if query_type == "regular_performance" and entity in player_info:
-        performance_info = player_info[entity].get("performance", "No specific performance data available.")
-        return performance_info
+def handle_who_question(query, data):
+    query_tokens = set(word_tokenize(query.lower()))
+    best_match = None
+    highest_score = 0
 
-    # Respond with player's playoffs performance information
-    if query_type == "playoffs_performance" and entity in player_info:
-        playoffs_info = player_info[entity].get("playoffs", "No specific playoffs data available.")
-        return playoffs_info
+    print("Considering sentences for 'Who' question:")
 
-    # Respond with player's role
-    if query_type == "role":
-        return f"{entity} was a {player_info[entity]['role']} for the New York Giants."
+    for entry in data['data']:
+        if 'who' in entry.get('question_type', []):
+            sentence_entities = entry.get('entities', [])
+            score = sum(token in query_tokens for token in sentence_entities)
 
-    # Handle general info queries
-    if query_type == "general_info" and entity in player_info:
-        role_info = player_info[entity].get("role", "")
-        performance_info = player_info[entity].get("performance", "")
-        return f"{entity} was a {role_info} for the New York Giants. {performance_info}"
+            print(f"Sentence: \"{entry['sentence']}\", Score: {score}, Entities: {sentence_entities}")
 
-    # Fallback to TF-IDF for other queries
-    return search_with_tf_idf(query, data)
+            if score > highest_score:
+                highest_score = score
+                best_match = entry['sentence']
+
+    if best_match:
+        return best_match
+    else:
+        return "I'm sorry, I don't have information on that."
 
 def search_with_tf_idf(query, data):
-    # Updated to return human-like response
+    # Preprocess the query
     query_processed = " ".join([lemmatizer.lemmatize(word.lower()) for word in word_tokenize(query)])
     query_tfidf = tfidf_vectorizer.transform([query_processed])
-    cosine_similarities = np.dot(query_tfidf, tfidf_matrix.T).toarray()[0]
-    best_match_index = np.argmax(cosine_similarities)
 
-    if cosine_similarities[best_match_index] > 0.2:  # Adjust threshold as needed
-        best_match = data['data'][best_match_index]
-        if 'entities' in best_match:
-            return ', '.join(best_match['entities'])  # Return a list of entities for human-like response
-        return best_match['sentence']
+    # Calculate cosine similarities between the query and each sentence in the JSON data
+    cosine_similarities = np.dot(query_tfidf, tfidf_matrix.T).toarray()[0]
+
+    # Sort the sentences based on similarity scores
+    sorted_indices = np.argsort(cosine_similarities)[::-1]
+
+    # Retrieve and print the top three sentences for debugging
+    top_sentences = []
+    for index in sorted_indices[:3]:
+        sentence = data['data'][index]['sentence']
+        top_sentences.append((sentence, cosine_similarities[index]))
+        print(f"Sentence: \"{sentence}\", Similarity Score: {cosine_similarities[index]}")
+
+    # Return the sentence with the highest score
+    best_match_index = sorted_indices[0]
+    if cosine_similarities[best_match_index] > 0.2:  # Threshold for relevance
+        return top_sentences[0][0]  # Return the full sentence
     return "I'm sorry, I don't have information on that."
 
 # Save the JSON data
