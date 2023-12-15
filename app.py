@@ -14,7 +14,7 @@ from playerinfo import player_info
 
 #New addition
 import random
-
+    
 prev_question = ""  # Add this at the start of your script
 
 def reset_conversation():
@@ -54,7 +54,14 @@ nlp = spacy.load("en_core_web_sm")
 
 #Preprocess and Lemmatize the sentences
 def preprocess_and_lemmatize(data):
-    sentences = [entry['sentence'] for entry in data['data']]
+    # Updated to include new JSON fields
+    sentences = []
+    for entry in data['data']:
+        sentence = entry['sentence']
+        context = entry.get('context', '')
+        keywords = ' '.join(entry.get('keywords', []))
+        combined_text = f"{sentence} {context} {keywords}"
+        sentences.append(combined_text)
     return [" ".join([lemmatizer.lemmatize(word.lower()) for word in word_tokenize(sentence)]) for sentence in sentences]
 
 # Load the JSON data
@@ -64,7 +71,7 @@ def load_data(filename):
         return json.load(file)
 
 # Load data and initialize TF-IDF Vectorizer
-data = load_data('giants.json')
+data = load_data('nygiants.json')
 preprocessed_data = preprocess_and_lemmatize(data)
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_data)
@@ -132,17 +139,18 @@ def find_best_match(query, data):
     return search_with_tf_idf(query, data)
 
 def search_with_tf_idf(query, data):
-    # Process query for TF-IDF comparison
+    # Updated to return human-like response
     query_processed = " ".join([lemmatizer.lemmatize(word.lower()) for word in word_tokenize(query)])
     query_tfidf = tfidf_vectorizer.transform([query_processed])
     cosine_similarities = np.dot(query_tfidf, tfidf_matrix.T).toarray()[0]
     best_match_index = np.argmax(cosine_similarities)
 
-    # Check if a relevant match is found
-    if cosine_similarities[best_match_index] > 0.2:  # Adjusted threshold
-        return data['data'][best_match_index]['sentence']
+    if cosine_similarities[best_match_index] > 0.2:  # Adjust threshold as needed
+        best_match = data['data'][best_match_index]
+        if 'entities' in best_match:
+            return ', '.join(best_match['entities'])  # Return a list of entities for human-like response
+        return best_match['sentence']
     return "I'm sorry, I don't have information on that."
-
 
 # Save the JSON data
 def save_data(filename, data):
@@ -159,16 +167,8 @@ def add_new_data(sentence, data):
         "question_words": [token.text for token in doc if token.text.lower() in question_indicators]
     }
     data['data'].append(new_entry)
-    save_data('giants.json', data)  # Assuming you want to save to the file immediately
+    save_data('nygiants.json', data)  # Assuming you want to save to the file immediately
     return "New information added: " + sentence
-
-
-
-#introduced normalized_input to handle the case insensitivity and trimming of the user input.
-#I kept the checks for greeting and polite statements at the top since they should override other types of input.
-#I added a check for repeated questions using the prev_question global variable.
-#After all checks, the function determines whether the input is a question or a new data statement based on the presence of a question mark or question indicators.
-#If it's a question, the search_data function is called; otherwise, the add_new_data function is called.
 
 
 # Extract keywords from a sentence

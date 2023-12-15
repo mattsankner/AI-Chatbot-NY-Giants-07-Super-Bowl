@@ -149,11 +149,6 @@ player_info = {
         "performance": "Kevin Gilbride was the offensive coordinator.",
         "highlights": "Kevin Gilbride led the offense to a Super Bowl victory."
     },
-    "Giants": {
-        "role": "team",
-        "performance": "The Giants finished the regular season with a 10–6 record.",
-        "playoffs": "The Giants won three road playoff games to reach the Super Bowl, at Dallas, Green Bay, and New England, respectively."
-    }, 
     "John Mara": {
         "role": "owner",
         "performance": "John Mara was the owner."

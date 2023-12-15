@@ -1,0 +1,2670 @@
+{
+    "data": [
+        {
+            "sentence": "Drama unfolded with Michael Strahan, the veteran defensive end. Angry with Coughlin's methods, Strahan held out for the entirety of training camp.",
+            "context": [
+                "Drama caused a training camp hold out"
+            ],
+            "entities": [
+                "Tom Coughlin",
+                "Head Coach",
+                "Michael Strahan",
+                "Defensive End"
+            ],
+            "actions": [
+                "Angry with Tom Coughlin",
+                "held out",
+                "training camp"
+            ],
+            "keywords": [
+                "Michael Strahan",
+                "drama",
+                "angry",
+                "defensive end",
+                "held out",
+                "training camp"
+            ]
+        },
+        {
+            "sentence": "Yet, mere weeks before the season began, he returned, accepted a substantial fine, and was elected a team captain, embodying the resilience and complexities within the Giants' locker room.",
+            "context": "Drama Resolved",
+            "entities": [
+                "Tom Coughlin",
+                "Head Coach",
+                "Michael Strahan",
+                "Defensive End"
+            ],
+            "actions": [
+                "returned",
+                "drama resolved",
+                "substantial fine",
+                "team captain",
+                "resilience",
+                "complexities",
+                "Giants' locker room"
+            ],
+            "keywords": [
+                "returned",
+                "substantial fine",
+                "team captain",
+                "resilience",
+                "complexities",
+                "Giants' locker room"
+            ]
+        },
+        {
+            "sentence": "With the stage set against a backdrop of doubt, the Giants' early season was challenging. They started with two losses, a continuation of the previous season's slide.",
+            "context": "Early Challenges, Two Losses in the Beginning of the Season",
+            "entities": [
+                "New York Giants Football Team",
+                "New York Giants",
+                "New York",
+                "Giants"
+            ],
+            "actions": [
+                "stage set",
+                "two losses",
+                "continuation",
+                "slide"
+            ],
+            "keywords": [
+                "early season",
+                "backdrop of doubt",
+                "challenging",
+                "two losses",
+                "continuation",
+                "previous season",
+                "slide"
+            ]
+        },
+        {
+            "sentence": "However, the tide began to turn in Week 3. The Giants rallied for a dramatic win, one that would spark a six-game winning streak.",
+            "context": "Week 3 Win, Winning Streak",
+            "entities": [
+                "The Giants",
+                "New York Giants",
+                "New York Giants Football Team"
+            ],
+            "actions": [
+                "tide turn",
+                "rallied",
+                "spark",
+                "dramatic win",
+                "six-game winning streak"
+            ],
+            "keywords": [
+                "Week 3",
+                "Giants",
+                "dramatic win",
+                "six-game winning streak"
+            ]
+        },
+        {
+            "sentence": "Eli Manning's leadership began to emerge during this time. Though his statistics were not dazzling, he showed poise in crucial moments. The quarterback, often a target for critics, was starting to show signs of the clutch performer he would become known as.",
+            "context": "Eli Manning Growth in Leadership and Performance",
+            "entities": [
+                "Eli Manning",
+                "Franchise Quarterback",
+                "Quarterback",
+                "Quarterbacks",
+                "Quarter Back",
+                "Quarter Backs"
+            ],
+            "actions": [
+                "leadership",
+                "leader",
+                "grow into",
+                "leadership development",
+                "emerge as leader",
+                "statistics",
+                "not dazzling",
+                "poise",
+                "crucial moments",
+                "quarterback",
+                "critics",
+                "clutch performer"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "leadership",
+                "leader",
+                "grow into",
+                "leadership development",
+                "emerge as leader",
+                "statistics",
+                "not dazzling",
+                "poise",
+                "crucial moments",
+                "quarterback",
+                "critics",
+                "clutch performer"
+            ]
+        },
+        {
+            "sentence": "Tom Coughlin's leadership style, once a source of contention, began to pay dividends. His decision to involve players in leadership roles created a stronger bond within the team.",
+            "context": "General Football Context",
+            "entities": [
+                "Tom Coughlin",
+                "Head Coach",
+                "Coughlin",
+                "Coaching",
+                "Coaches",
+                "Coach"
+            ],
+            "actions": [
+                "leadership style",
+                "contention",
+                "dividends",
+                "decision",
+                "involve players",
+                "leadership roles",
+                "stronger bond",
+                "team"
+            ],
+            "keywords": [
+                "Tom Coughlin",
+                "leadership style",
+                "contention",
+                "dividends",
+                "decision",
+                "involve players",
+                "leadership roles",
+                "stronger bond",
+                "team"
+            ]
+        },
+        {
+            "sentence": "This collective leadership approach, along with Coughlin's softened demeanor, allowed the team to navigate through the adversity they faced.",
+            "context": "Coughlin changes leadership Style",
+            "entities": [
+                "Tom Coughlin",
+                "Head Coach",
+                "Coughlin",
+                "Coaching",
+                "Coaches",
+                "Coach"
+            ],
+            "actions": [
+                "collective leadership",
+                "Coughlin's softened demeanor",
+                "navigate",
+                "adversity",
+                "change",
+                "changed leadership style"
+            ],
+            "keywords": [
+                "collective leadership",
+                "Coughlin's softened demeanor",
+                "navigate",
+                "adversity"
+            ]
+        },
+        {
+            "sentence": "Offensively, the Giants found ways to compensate for the loss of Barber.",
+            "context": "Tiki Barber Gone, Brandon Jacobs Steps Up",
+            "entities": [
+                "New York Giants",
+                "Tiki Barber",
+                "Running Backs",
+                "Running Back",
+                "New York Giants",
+                "Giants"
+            ],
+            "actions": [
+                "Offensive",
+                "Giants",
+                "compensate",
+                "loss of Barber"
+            ],
+            "keywords": [
+                "Offensive",
+                "offense",
+                "loss of Barber",
+                "Tiki Barber",
+                "running backs",
+                "running game"
+            ]
+        },
+        {
+            "sentence": "Brandon Jacobs stepped up as the lead back, and the receiving corps, while not star-studded, played with cohesion.",
+            "context": "Tiki Barber Gone, Brandon Jacobs Steps Up",
+            "entities": [
+                "Brandon Jacobs",
+                "New York Giants Football Team",
+                "New York Giants",
+                "Giants",
+                "Running Backs"
+            ],
+            "actions": [
+                "lead back",
+                "receiving corps",
+                "cohesion"
+            ],
+            "keywords": [
+                "Brandon Jacobs",
+                "lead back",
+                "receiving corps",
+                "cohesion"
+            ]
+        },
+        {
+            "sentence": "The offensive line, an unsung hero, provided the stability that allowed the offense to function effectively.",
+            "context": "Football Position Group",
+            "entities": [
+                "Offensive Line",
+                "Offensive Lines",
+                "Offense",
+                "Offenses",
+                "Offensive",
+                "Offensive Lines",
+                "Offensive Line",
+                "Offense",
+                "Offenses"
+            ],
+            "actions": [
+                "unsung hero",
+                "provided stability",
+                "effective"
+            ],
+            "keywords": [
+                "offensive line",
+                "unit",
+                "unsung hero"
+            ]
+        },
+        {
+            "sentence": "At the dawn of the 2007 NFL season, the New York Giants were not perceived as contenders for the Super Bowl.",
+            "context": "Preseason perception; New York Giants Football Team Not Contenders",
+            "entities": [
+                " New York Giants Football Team",
+                "New York Giants",
+                "Giants",
+                "New York",
+                "Super Bowl",
+                "NFL",
+                "National Football League",
+                "Super Bowl"
+            ],
+            "actions": [
+                "2007",
+                "NFL season",
+                "New York Giants",
+                "Not Contenders"
+            ],
+            "keywords": [
+                "2007 NFL Season",
+                "2007",
+                "NFL season",
+                "New York Giants",
+                "Not Contenders",
+                "Super Bowl",
+                "Super Bowl Contenders",
+                "Preseason",
+                "Pre-season",
+                "Pre Season",
+                "predicted",
+                "prediction"
+            ]
+        },
+        {
+            "sentence": "The preceding season's collapse, losing seven of their last nine games, had sown seeds of doubt and criticism.",
+            "context": "Preseason Perception New York Giants",
+            "entities": [
+                "New York Giants Football Team",
+                "New York Giants",
+                "Giants",
+                "New York",
+                "Super Bowl",
+                "NFL",
+                "National Football League",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Collapse",
+                "Doubt",
+                "Criticism",
+                "Lost their last nine games",
+                "year before",
+                "sown seeds of doubt",
+                "brought criticism"
+            ],
+            "keywords": [
+                "Preceding",
+                "Preceding season",
+                "Season",
+                "underdog perceptions",
+                "underdog",
+                "underdogs",
+                "underdog perception",
+                "perception"
+            ]
+        },
+        {
+            "sentence": "Expectations were low, and the atmosphere around the Giants was one of skepticism and uncertainty.",
+            "context": "Preseason Atmosphere of New York Giants",
+            "entities": [
+                "Expectations",
+                "Atmosphere",
+                "New York Giants",
+                "Giants",
+                "Skepticism",
+                "Uncertainty"
+            ],
+            "actions": [
+                "Expectations low",
+                "Atmosphere skepticism",
+                "Atmosphere uncertainty"
+            ],
+            "keywords": [
+                "Expectations",
+                "Low",
+                "Atmosphere",
+                "Skepticism",
+                "Uncertainty",
+                "Giants",
+                "New York Giants"
+            ]
+        },
+        {
+            "sentence": "Eli Manning, the Giants' quarterback, was under particular scrutiny.",
+            "context": "Player Scrutiny in New York Giants",
+            "entities": [
+                "Eli Manning",
+                "Giants",
+                "Quarterback"
+            ],
+            "actions": [
+                "Under scrutiny"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Giants",
+                "Quarterback",
+                "Scrutiny"
+            ]
+        },
+        {
+            "sentence": "Eli Manning, Drafted first overall in 2004, performance was unfavorably compared to his contemporaries and his Super Bowl MVP brother, Peyton Manning.",
+            "context": "Career Comparison of Eli Manning",
+            "entities": [
+                "Eli Manning",
+                "2004 Draft",
+                "Super Bowl MVP",
+                "Peyton Manning"
+            ],
+            "actions": [
+                "Drafted first overall",
+                "Performance comparison",
+                "Unfavorably compared"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Drafted",
+                "First Overall",
+                "2004",
+                "Performance",
+                "Unfavorable Comparison",
+                "Contemporaries",
+                "Peyton Manning"
+            ]
+        },
+        {
+            "sentence": "Critics questioned Eli's ability to lead, his consistency, and whether he could live up to the Manning legacy.",
+            "context": "Eli Manning's Leadership and Legacy Evaluation",
+            "entities": [
+                "Critics",
+                "Eli Manning",
+                "Manning Legacy"
+            ],
+            "actions": [
+                "Questioned leadership",
+                "Doubted consistency",
+                "Scrutinized legacy adherence"
+            ],
+            "keywords": [
+                "Leadership scrutiny",
+                "Consistency doubt",
+                "Legacy comparison",
+                "Eli Manning",
+                "Manning family"
+            ]
+        },
+        {
+            "sentence": "Known for his rigid discipline and exacting standards, Coughlin had been a controversial figure.",
+            "context": "Tom Coughlin's Coaching Style and Controversy",
+            "entities": [
+                "Tom Coughlin",
+                "Rigid Discipline",
+                "Exacting Standards"
+            ],
+            "actions": [
+                "Upheld strict discipline",
+                "Maintained high standards",
+                "Gained controversy"
+            ],
+            "keywords": [
+                "Strict discipline",
+                "High standards",
+                "Controversial reputation",
+                "Coaching style",
+                "Tom Coughlin"
+            ]
+        },
+        {
+            "sentence": "The team's lack of discipline and unity in the previous season was laid at his feet, with many fans and commentators believing he should have been dismissed.",
+            "context": "Criticism of Team's Previous Season Performance",
+            "entities": [
+                "Team",
+                "Fans",
+                "Commentators"
+            ],
+            "actions": [
+                "Attributed lack of discipline",
+                "Perceived lack of unity",
+                "Called for dismissal"
+            ],
+            "keywords": [
+                "Discipline lack",
+                "Unity deficit",
+                "Previous season",
+                "Fan criticism",
+                "Commentator opinions",
+                "Dismissal calls"
+            ]
+        },
+        {
+            "sentence": "Instead, the Giants organization decided to give him another chance, albeit on a short leash with a one-year contract extension.",
+            "context": "New York Giants' Decision on Contract Extension",
+            "entities": [
+                "Giants Organization",
+                "One-year Contract"
+            ],
+            "actions": [
+                "Decided to give another chance",
+                "Imposed short leash"
+            ],
+            "keywords": [
+                "Giants decision",
+                "Contract extension",
+                "Short leash",
+                "Another chance"
+            ]
+        },
+        {
+            "sentence": "The Giants, determined to change the narrative, entered the season with significant alterations in their coaching staff.",
+            "context": "New York Giants' Strategic Changes",
+            "entities": [
+                "The Giants",
+                "Coaching Staff"
+            ],
+            "actions": [
+                "Aimed to change narrative",
+                "Entered season",
+                "Made significant alterations"
+            ],
+            "keywords": [
+                "Narrative change",
+                "Season entry",
+                "Coaching staff alterations",
+                "Strategic changes",
+                "Giants"
+            ]
+        },
+        {
+            "sentence": "Kevin Gilbride was promoted to offensive coordinator, a role he would hold for years to come.",
+            "context": "Promotion within Football Coaching Staff",
+            "entities": [
+                "Kevin Gilbride",
+                "Offensive Coordinator"
+            ],
+            "actions": [
+                "Promoted",
+                "Assumed long-term role"
+            ],
+            "keywords": [
+                "Kevin Gilbride",
+                "Promotion",
+                "Offensive Coordinator",
+                "Long-term tenure"
+            ]
+        },
+        {
+            "sentence": "Defensively, Tim Lewis was replaced by Steve Spagnuolo, a move that would prove to be pivotal as Spagnuolo's impact on the Giants' defense was profound.",
+            "context": "Defensive Coaching Change in New York Giants",
+            "entities": [
+                "Tim Lewis",
+                "Steve Spagnuolo",
+                "Giants Defense"
+            ],
+            "actions": [
+                "Replaced",
+                "Transformative impact"
+            ],
+            "keywords": [
+                "Defensive change",
+                "Tim Lewis",
+                "Steve Spagnuolo",
+                "Pivotal move",
+                "Giants' defense"
+            ]
+        },
+        {
+            "sentence": "Amidst the coaching changes, internal strife was also evident.",
+            "context": "Internal Challenges During Coaching Transitions",
+            "entities": [
+                "Coaching Changes",
+                "Internal Strife"
+            ],
+            "actions": [
+                "Experienced internal strife",
+                "Amidst transitions"
+            ],
+            "keywords": [
+                "Coaching changes",
+                "Internal strife",
+                "Team dynamics"
+            ]
+        },
+        {
+            "sentence": "Tiki Barber, the Giants' all-time leading rusher, had retired and transitioned to a broadcasting career, where he did not shy away from critiquing his former team, particularly targeting Coughlin and Eli Manning.",
+            "context": "Career Transition and Commentary by Former Player",
+            "entities": [
+                "Tiki Barber",
+                "Eli Manning",
+                "Coughlin",
+                "Giants"
+            ],
+            "actions": [
+                "Retired",
+                "Transitioned",
+                "Critiqued",
+                "Targeted"
+            ],
+            "keywords": [
+                "Tiki Barber",
+                "Retirement",
+                "Broadcasting career",
+                "Critique",
+                "Eli Manning",
+                "Coughlin",
+                "Giants"
+            ]
+        },
+        {
+            "sentence": "His comments about Manning's leadership being 'almost comical' were met with a measured response from Eli, indicative of his calm demeanor in the face of criticism.",
+            "context": "Response to Criticism in Football",
+            "entities": [
+                "Tiki Barber",
+                "Eli Manning"
+            ],
+            "actions": [
+                "Commented on leadership",
+                "Measured response",
+                "Maintained calm demeanor"
+            ],
+            "keywords": [
+                "Leadership critique",
+                "Comical description",
+                "Calm response",
+                "Criticism handling"
+            ]
+        },
+        {
+            "sentence": "The second half of the New York Giants\u2019 2007 season was a remarkable narrative of momentum, determination, and upset victories.",
+            "context": "New York Giants 2007 Season Performance",
+            "entities": [
+                "New York Giants",
+                "2007 Season"
+            ],
+            "actions": [
+                "Gained momentum",
+                "Showed determination",
+                "Achieved upset victories"
+            ],
+            "keywords": [
+                "2007 season",
+                "Momentum",
+                "Determination",
+                "Upset victories",
+                "Remarkable narrative"
+            ]
+        },
+        {
+            "sentence": "The crescendo of their regular season came in Week 17 against the New England Patriots.",
+            "context": "Pivotal Regular Season Game",
+            "entities": [
+                "New England Patriots",
+                "Week 17"
+            ],
+            "actions": [
+                "Reached crescendo",
+                "Regular season climax"
+            ],
+            "keywords": [
+                "Crescendo",
+                "Regular season",
+                "Week 17",
+                "New England Patriots"
+            ]
+        },
+        {
+            "sentence": "Though the Giants lost, the close game against an undefeated team provided them with a critical boost of confidence, signaling that they could compete with any team in the league.",
+            "context": "Boost in Confidence Despite Loss",
+            "entities": [
+                "Giants",
+                "Undefeated Team"
+            ],
+            "actions": [
+                "Lost close game",
+                "Gained confidence",
+                "Signaled competitiveness"
+            ],
+            "keywords": [
+                "Close game",
+                "Boost of confidence",
+                "Competitiveness",
+                "Giants"
+            ]
+        },
+        {
+            "sentence": "This confidence carried over into the playoffs, where the Giants' performance became the epitome of resilience and focus.",
+            "context": "Playoff Performance of New York Giants",
+            "entities": [
+                "Giants",
+                "Playoffs"
+            ],
+            "actions": [
+                "Carried confidence",
+                "Displayed resilience",
+                "Maintained focus"
+            ],
+            "keywords": [
+                "Playoff confidence",
+                "Resilience",
+                "Focus",
+                "Giants"
+            ]
+        },
+        {
+            "sentence": "The wild card round saw them defeating the Tampa Bay Buccaneers.",
+            "context": "Wild Card Playoff Round",
+            "entities": [
+                "Tampa Bay Buccaneers",
+                "Wild Card Round"
+            ],
+            "actions": [
+                "Defeated Tampa Bay Buccaneers"
+            ],
+            "keywords": [
+                "Wild card victory",
+                "Defeat",
+                "Tampa Bay Buccaneers"
+            ]
+        },
+        {
+            "sentence": "Eli Manning's efficient play and the defense's stifling performance set the tone for the postseason",
+            "context": "Postseason Performance Tone Setting",
+            "entities": [
+                "Eli Manning",
+                "Defense"
+            ],
+            "actions": [
+                "Efficient play",
+                "Stifling performance",
+                "Set postseason tone"
+            ],
+            "keywords": [
+                "Efficient play",
+                "Stifling defense",
+                "Postseason tone"
+            ]
+        },
+        {
+            "sentence": "Manning threw for 185 yards and two touchdowns, silencing many of his doubters.",
+            "context": "Eli Manning's Performance in Football",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Threw for 185 yards",
+                "Scored two touchdowns",
+                "Silenced doubters"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "185 yards",
+                "Two touchdowns",
+                "Silencing critics"
+            ]
+        },
+        {
+            "sentence": "In the divisional round, the Giants faced the Dallas Cowboys, the NFC's top seed.",
+            "context": "NFL Divisional Round Match",
+            "entities": [
+                "New York Giants",
+                "Dallas Cowboys",
+                "NFC's top seed"
+            ],
+            "actions": [
+                "Faced Dallas Cowboys",
+                "Divisional round"
+            ],
+            "keywords": [
+                "Divisional round",
+                "New York Giants",
+                "Dallas Cowboys",
+                "NFC top seed"
+            ]
+        },
+        {
+            "sentence": "The Giants' defense, which had become a formidable force over the season, again rose to the occasion, pressuring Cowboys quarterback Tony Romo and securing a 21-17 victory.",
+            "context": "New York Giants Defensive Strategy",
+            "entities": [
+                "New York Giants",
+                "Defense",
+                "Tony Romo",
+                "Dallas Cowboys"
+            ],
+            "actions": [
+                "Rose to occasion",
+                "Pressured quarterback",
+                "Secured victory"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Formidable force",
+                "Pressuring Tony Romo",
+                "21-17 victory"
+            ]
+        },
+        {
+            "sentence": "Manning continued to display his growing aptitude for leadership and clutch play, throwing for two touchdowns.",
+            "context": "Eli Manning's Leadership and Skill",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Displayed leadership",
+                "Clutch play",
+                "Threw for two touchdowns"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Leadership",
+                "Clutch play",
+                "Two touchdowns"
+            ]
+        },
+        {
+            "sentence": "The NFC Championship game against the Green Bay Packers was a testament to the Giants' toughness.",
+            "context": "NFC Championship Game",
+            "entities": [
+                "NFC Championship Game",
+                "Green Bay Packers",
+                "New York Giants"
+            ],
+            "actions": [
+                "Competed in NFC Championship",
+                "Demonstrated toughness"
+            ],
+            "keywords": [
+                "NFC Championship Game",
+                "Green Bay Packers",
+                "Giants toughness"
+            ]
+        },
+        {
+            "sentence": "Tom Coughlin, the head coach, faced his own battles.",
+            "context": "Challenges of Head Coaching",
+            "entities": [
+                "Tom Coughlin",
+                "Head Coach"
+            ],
+            "actions": [
+                "Faced challenges"
+            ],
+            "keywords": [
+                "Tom Coughlin",
+                "Head Coach",
+                "Challenges"
+            ]
+        },
+        {
+            "sentence": "In frigid conditions at Lambeau Field, the Giants pulled off an overtime victory, with Lawrence Tynes kicking the game-winning field goal.",
+            "context": "Overtime Victory at Lambeau Field",
+            "entities": [
+                "Lambeau Field",
+                "New York Giants",
+                "Lawrence Tynes"
+            ],
+            "actions": [
+                "Achieved overtime victory",
+                "Kicked game-winning field goal"
+            ],
+            "keywords": [
+                "Lambeau Field",
+                "Overtime victory",
+                "Lawrence Tynes",
+                "Field goal"
+            ]
+        },
+        {
+            "sentence": "Manning threw for 251 yards, again without an interception in the NFC Championship Game",
+            "context": "Eli Manning's Performance in NFC Championship",
+            "entities": [
+                "Eli Manning",
+                "NFC Championship Game"
+            ],
+            "actions": [
+                "Threw for 251 yards",
+                "No interceptions"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "251 yards",
+                "NFC Championship Game",
+                "No interceptions"
+            ]
+        },
+        {
+            "sentence": "The stage was set for Super Bowl XLII, where the Giants faced the Patriots once more.",
+            "context": "Super Bowl XLII Matchup",
+            "entities": [
+                "Super Bowl XLII",
+                "New York Giants",
+                "New England Patriots"
+            ],
+            "actions": [
+                "Set stage for Super Bowl",
+                "Faced New England Patriots"
+            ],
+            "keywords": [
+                "Super Bowl XLII",
+                "New York Giants",
+                "New England Patriots"
+            ]
+        },
+        {
+            "sentence": "The Giants' defense, led by Michael Strahan and the emerging Osi Umenyiora, was relentless.",
+            "context": "Defensive Strategy of New York Giants",
+            "entities": [
+                "New York Giants",
+                "Defense",
+                "Michael Strahan",
+                "Osi Umenyiora"
+            ],
+            "actions": [
+                "Led defense",
+                "Displayed relentlessness"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Michael Strahan",
+                "Osi Umenyiora",
+                "Relentlessness"
+            ]
+        },
+        {
+            "sentence": "The Giants Defense kept the pressure on Tom Brady, sacking him five times.",
+            "context": "Defensive Performance against Tom Brady",
+            "entities": [
+                "New York Giants",
+                "Defense",
+                "Tom Brady"
+            ],
+            "actions": [
+                "Kept pressure",
+                "Sacked five times"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Pressure on Tom Brady",
+                "Sacking",
+                "Five times"
+            ]
+        },
+        {
+            "sentence": "Manning led a drive that included the miraculous 'Helmet Catch' by David Tyree, culminating in a Plaxico Burress touchdown.",
+            "context": "Iconic Play in Football Game",
+            "entities": [
+                "Eli Manning",
+                "Helmet Catch",
+                "David Tyree",
+                "Plaxico Burress"
+            ],
+            "actions": [
+                "Led drive",
+                "Miraculous catch",
+                "Culminated in touchdown"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Helmet Catch",
+                "David Tyree",
+                "Plaxico Burress",
+                "Touchdown"
+            ]
+        },
+        {
+            "sentence": "The New York Giants won Super Bowl XLII with a 17-14 victory.",
+            "context": "Super Bowl XLII Triumph",
+            "entities": [
+                "New York Giants",
+                "Super Bowl XLII"
+            ],
+            "actions": [
+                "Won Super Bowl",
+                "17-14 victory"
+            ],
+            "keywords": [
+                "New York Giants",
+                "Super Bowl XLII",
+                "17-14 victory"
+            ]
+        },
+        {
+            "sentence": "Manning finished the postseason with 854 passing yards, six touchdowns, and only one interception, demonstrating his growth into a championship-caliber quarterback.",
+            "context": "Eli Manning's Postseason Performance",
+            "entities": [
+                "Eli Manning",
+                "Postseason"
+            ],
+            "actions": [
+                "Finished postseason",
+                "854 passing yards",
+                "Six touchdowns",
+                "One interception"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Postseason",
+                "Passing yards",
+                "Touchdowns",
+                "Interception",
+                "Championship-caliber"
+            ]
+        },
+        {
+            "sentence": "Brandon Jacobs and Ahmad Bradshaw provided a potent rushing attack, combining for over 300 yards and four touchdowns in the postseason.",
+            "context": "Rushing Performance in Postseason",
+            "entities": [
+                "Brandon Jacobs",
+                "Ahmad Bradshaw",
+                "Postseason"
+            ],
+            "actions": [
+                "Provided rushing attack",
+                "Combined for yards and touchdowns"
+            ],
+            "keywords": [
+                "Brandon Jacobs",
+                "Ahmad Bradshaw",
+                "Rushing attack",
+                "300 yards",
+                "Four touchdowns",
+                "Postseason"
+            ]
+        },
+        {
+            "sentence": "As the season unfolded, the Giants were often overshadowed by more high-profile teams.",
+            "context": "Seasonal Performance of New York Giants",
+            "entities": [
+                "New York Giants",
+                "Season"
+            ],
+            "actions": [
+                "Unfolded season",
+                "Overshadowed by other teams"
+            ],
+            "keywords": [
+                "Season",
+                "New York Giants",
+                "Overshadowed",
+                "High-profile teams"
+            ]
+        },
+        {
+            "sentence": "However, their unity in the locker room, fostered by leaders like Antonio Pierce and Michael Strahan, set the foundation for their success.",
+            "context": "Team Dynamics in New York Giants",
+            "entities": [
+                "Antonio Pierce",
+                "Michael Strahan",
+                "New York Giants"
+            ],
+            "actions": [
+                "Fostered unity",
+                "Set foundation for success"
+            ],
+            "keywords": [
+                "Unity",
+                "Locker room",
+                "Antonio Pierce",
+                "Michael Strahan",
+                "Foundation",
+                "Success"
+            ]
+        },
+        {
+            "sentence": "On the field, the Giants' defense, coordinated by Steve Spagnuolo, became known for its aggressive and relentless pass rush.",
+            "context": "Defensive Strategy of New York Giants",
+            "entities": [
+                "New York Giants",
+                "Defense",
+                "Steve Spagnuolo"
+            ],
+            "actions": [
+                "Coordinated defense",
+                "Aggressive pass rush",
+                "Relentless approach"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Steve Spagnuolo",
+                "Aggressive",
+                "Relentless",
+                "Pass rush"
+            ]
+        },
+        {
+            "sentence": "This defense, which became the backbone of the Giants' championship run, was critical in their playoff success, consistently pressuring opposing quarterbacks and making key stops in crucial moments.",
+            "context": "Key to New York Giants Playoff Success",
+            "entities": [
+                "New York Giants",
+                "Defense"
+            ],
+            "actions": [
+                "Became backbone",
+                "Critical in playoffs",
+                "Pressured quarterbacks",
+                "Key stops"
+            ],
+            "keywords": [
+                "Defense backbone",
+                "Playoff success",
+                "Quarterback pressure",
+                "Crucial moments"
+            ]
+        },
+        {
+            "sentence": "The offensive line, one of the unsung heroes of the season, provided Eli Manning with the protection he needed to find his receivers and allowed the running game to flourish.",
+            "context": "Offensive Line's Role in Team Success",
+            "entities": [
+                "Offensive Line",
+                "Eli Manning"
+            ],
+            "actions": [
+                "Provided protection",
+                "Supported running game"
+            ],
+            "keywords": [
+                "Offensive line",
+                "Protection",
+                "Eli Manning",
+                "Receivers",
+                "Running game"
+            ]
+        },
+        {
+            "sentence": "Manning's late-game poise became a defining trait of his quarterbacking throughout the season and into the playoffs.",
+            "context": "Eli Manning's Quarterbacking Traits",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Showed late-game poise",
+                "Defining trait"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Late-game poise",
+                "Quarterbacking",
+                "Season",
+                "Playoffs"
+            ]
+        },
+        {
+            "sentence": "The Giants' road to the Super Bowl was challenging, facing three playoff games on the road.",
+            "context": "New York Giants' Path to Super Bowl",
+            "entities": [
+                "New York Giants",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Faced playoff games",
+                "Challenging road"
+            ],
+            "keywords": [
+                "Giants",
+                "Super Bowl",
+                "Playoff games",
+                "Road challenges"
+            ]
+        },
+        {
+            "sentence": "The wild card win over the Buccaneers was convincing, the divisional round against the top-seeded Cowboys was a nail-biter, and the NFC Championship against the Packers in frigid conditions was a testament to their determination.",
+            "context": "New York Giants' Playoff Journey",
+            "entities": [
+                "Wild Card",
+                "Buccaneers",
+                "Divisional Round",
+                "Cowboys",
+                "NFC Championship",
+                "Packers"
+            ],
+            "actions": [
+                "Wild card win",
+                "Nail-biting game",
+                "Determined performance"
+            ],
+            "keywords": [
+                "Wild card",
+                "Buccaneers",
+                "Divisional round",
+                "Cowboys",
+                "NFC Championship",
+                "Packers",
+                "Determination"
+            ]
+        },
+        {
+            "sentence": "But it was their performance in Super Bowl XLII that truly encapsulated their season. The Giants' 17-14 victory over the Patriots, who were chasing an unprecedented 19-0 perfect season, is often remembered for the iconic 'Helmet Catch' by David Tyree and the game-winning touchdown pass to Plaxico Burress.",
+            "context": "Super Bowl XLII Performance of New York Giants",
+            "entities": [
+                "Super Bowl XLII",
+                "New York Giants",
+                "Patriots",
+                "Helmet Catch",
+                "David Tyree",
+                "Plaxico Burress"
+            ],
+            "actions": [
+                "Encapsulated season",
+                "17-14 victory",
+                "Iconic catch",
+                "Game-winning touchdown"
+            ],
+            "keywords": [
+                "Super Bowl XLII",
+                "Giants",
+                "17-14 victory",
+                "Patriots",
+                "Helmet Catch",
+                "David Tyree",
+                "Game-winning",
+                "Plaxico Burress"
+            ]
+        },
+        {
+            "sentence": "It was the Giants' defense that truly anchored the team, limiting one of the most prolific offenses in NFL history to 14 points.",
+            "context": "Defensive Strength of New York Giants",
+            "entities": [
+                "New York Giants",
+                "Defense"
+            ],
+            "actions": [
+                "Anchored team",
+                "Limited offense",
+                "14 points"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Anchoring",
+                "Prolific offense",
+                "14 points",
+                "NFL history"
+            ]
+        },
+        {
+            "sentence": "Throughout the season, players like Corey Webster, who intercepted Brett Favre to set up the game-winning field goal in the NFC Championship, and R.W. McQuarters, who had a key interception against the Cowboys, made pivotal plays that would carve their names into Giants lore.",
+            "context": "Key Players in New York Giants Season",
+            "entities": [
+                "Corey Webster",
+                "Brett Favre",
+                "R.W. McQuarters",
+                "Dallas Cowboys"
+            ],
+            "actions": [
+                "Interceptions",
+                "Set up game-winning field goal",
+                "Pivotal plays"
+            ],
+            "keywords": [
+                "Corey Webster",
+                "Brett Favre",
+                "R.W. McQuarters",
+                "Interceptions",
+                "Game-winning",
+                "Giants lore",
+                "NFC Championship"
+            ]
+        },
+        {
+            "sentence": "Tom Coughlin's coaching style, which had been questioned in previous seasons, proved to be effective.",
+            "context": "Tom Coughlin's Coaching Effectiveness",
+            "entities": [
+                "Tom Coughlin"
+            ],
+            "actions": [
+                "Coaching style",
+                "Questioned",
+                "Proved effective"
+            ],
+            "keywords": [
+                "Tom Coughlin",
+                "Coaching",
+                "Effectiveness",
+                "Previous seasons"
+            ]
+        },
+        {
+            "sentence": "Tom Coughlin's ability to adapt and connect with his players was a crucial element in fostering the team's resilient spirit.",
+            "context": "Coaching Leadership of Tom Coughlin",
+            "entities": [
+                "Tom Coughlin"
+            ],
+            "actions": [
+                "Ability to adapt",
+                "Connect with players",
+                "Fostered resilience"
+            ],
+            "keywords": [
+                "Tom Coughlin",
+                "Adaptation",
+                "Connection",
+                "Resilience",
+                "Team spirit"
+            ]
+        },
+        {
+            "sentence": "The 2007 Giants exemplified that in football, like in life, perseverance, and belief in one's collective strength can lead to extraordinary outcomes.",
+            "context": "Philosophy of the 2007 Giants",
+            "entities": [
+                "2007 New York Giants"
+            ],
+            "actions": [
+                "Exemplified perseverance",
+                "Belief in strength",
+                "Extraordinary outcomes"
+            ],
+            "keywords": [
+                "2007 Giants",
+                "Perseverance",
+                "Belief",
+                "Strength",
+                "Extraordinary outcomes",
+                "Football philosophy"
+            ]
+        },
+        {
+            "sentence": "The Giants season is a reminder that in sports, champions are often those who refuse to be defined by their setbacks, instead of forging a path to victory through unity and unyielding determination.",
+            "context": "Philosophy of Sportsmanship in New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "Reminder of resilience",
+                "Refused to be defined",
+                "Forged path to victory"
+            ],
+            "keywords": [
+                "Giants",
+                "Sportsmanship",
+                "Champions",
+                "Setbacks",
+                "Unity",
+                "Determination"
+            ]
+        },
+        {
+            "sentence": "The Giants' early season was a testament to resilience.",
+            "context": "Early Season Resilience of New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "Early season performance",
+                "Testament to resilience"
+            ],
+            "keywords": [
+                "Giants",
+                "Early season",
+                "Resilience",
+                "Testament"
+            ]
+        },
+        {
+            "sentence": "Each game was a learning experience, each victory a building block.",
+            "context": "Growth and Progress in Football",
+            "entities": [
+                "Games",
+                "Victories"
+            ],
+            "actions": [
+                "Learning experience",
+                "Building block"
+            ],
+            "keywords": [
+                "Games",
+                "Learning",
+                "Victories",
+                "Building blocks"
+            ]
+        },
+        {
+            "sentence": "The team that had started with such low expectations was beginning to find its rhythm and confidence.",
+            "context": "Building Momentum in New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "Low expectations",
+                "Finding rhythm",
+                "Gaining confidence"
+            ],
+            "keywords": [
+                "Team",
+                "Expectations",
+                "Rhythm",
+                "Confidence"
+            ]
+        },
+        {
+            "sentence": "The story of the 2007 Giants is not just one of a miraculous Super Bowl run; it is also a story of transformation and overcoming adversity.",
+            "context": "Journey of the 2007 New York Giants",
+            "entities": [
+                "2007 Giants",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Miraculous run",
+                "Transformation",
+                "Overcoming adversity"
+            ],
+            "keywords": [
+                "2007 Giants",
+                "Super Bowl run",
+                "Transformation",
+                "Adversity"
+            ]
+        },
+        {
+            "sentence": "The foundation laid in the early season, through trials, criticism, and doubt, set the stage for what would become one of the most incredible and improbable championship seasons in NFL history.",
+            "context": "Foundation of New York Giants' Success",
+            "entities": [
+                "Early season",
+                "NFL"
+            ],
+            "actions": [
+                "Laid foundation",
+                "Trials",
+                "Criticism",
+                "Doubt",
+                "Championship season"
+            ],
+            "keywords": [
+                "Foundation",
+                "Early season",
+                "Trials",
+                "Criticism",
+                "Doubt",
+                "NFL history",
+                "Championship season"
+            ]
+        },
+        {
+            "sentence": "By mid-season, the Giants were no longer the team that many had written off.",
+            "context": "Mid-Season Turnaround of the New York Giants",
+            "entities": [
+                "Mid-season",
+                "Giants"
+            ],
+            "actions": [
+                "Transformation",
+                "Written off"
+            ],
+            "keywords": [
+                "Mid-season",
+                "Giants",
+                "Turnaround",
+                "Written off"
+            ]
+        },
+        {
+            "sentence": "They had become a gritty, determined group, exemplified by their come-from-behind victories and a defense that was increasingly becoming a force to be reckoned with.",
+            "context": "Characteristics of the New York Giants",
+            "entities": [
+                "Giants"
+            ],
+            "actions": [
+                "Became gritty",
+                "Determined group",
+                "Come-from-behind victories",
+                "Forceful defense"
+            ],
+            "keywords": [
+                "Gritty",
+                "Determination",
+                "Come-from-behind victories",
+                "Defense",
+                "Force"
+            ]
+        },
+        {
+            "sentence": "The challenges faced in the early part of the season galvanized them, and as they continued to win, the league began to take notice.",
+            "context": "Impact of Early Season Challenges",
+            "entities": [
+                "Early season",
+                "League"
+            ],
+            "actions": [
+                "Faced challenges",
+                "Galvanized",
+                "Won",
+                "Gained recognition"
+            ],
+            "keywords": [
+                "Challenges",
+                "Early season",
+                "Galvanized",
+                "Wins",
+                "League recognition"
+            ]
+        },
+        {
+            "sentence": "The defense was a statistical marvel in its own right, with Strahan, Justin Tuck, and Umenyiora creating a formidable pass rush that accumulated 11 sacks over the four playoff games.",
+            "context": "Defensive Excellence in Playoffs",
+            "entities": [
+                "Defense",
+                "Strahan",
+                "Justin Tuck",
+                "Umenyiora",
+                "Playoff games"
+            ],
+            "actions": [
+                "Statistical marvel",
+                "Formidable pass rush",
+                "11 sacks"
+            ],
+            "keywords": [
+                "Defense",
+                "Strahan",
+                "Justin Tuck",
+                "Umenyiora",
+                "Pass rush",
+                "11 sacks",
+                "Four playoff games"
+            ]
+        },
+        {
+            "sentence": "This defensive prowess was crucial in holding the record-breaking Patriots offense to just 14 points in the Super Bowl.",
+            "context": "Defensive Performance in Super Bowl",
+            "entities": [
+                "Defense",
+                "Patriots offense",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Defensive prowess",
+                "Held to 14 points"
+            ],
+            "keywords": [
+                "Defensive prowess",
+                "Patriots offense",
+                "14 points",
+                "Super Bowl"
+            ]
+        },
+        {
+            "sentence": "The 2007 Giants are often remembered for their playoff run, but their regular-season resolve and growth were equally important.",
+            "context": "Significance of Regular Season for 2007 Giants",
+            "entities": [
+                "2007 Giants"
+            ],
+            "actions": [
+                "Playoff run",
+                "Regular-season resolve",
+                "Growth"
+            ],
+            "keywords": [
+                "2007 Giants",
+                "Playoff run",
+                "Regular season",
+                "Resolve",
+                "Growth"
+            ]
+        },
+        {
+            "sentence": "The second half of the season built the foundation that would carry them through the playoffs.",
+            "context": "Progression in the Second Half of the Season",
+            "entities": [
+                "Second half",
+                "Season",
+                "Playoffs"
+            ],
+            "actions": [
+                "Built foundation",
+                "Carried through playoffs"
+            ],
+            "keywords": [
+                "Second half",
+                "Season",
+                "Foundation",
+                "Playoffs"
+            ]
+        },
+        {
+            "sentence": "Each game, each play, and each moment of adversity they overcame added to their collective strength, culminating in one of the most storied championship runs in NFL history.",
+            "context": "Building Strength in New York Giants",
+            "entities": [],
+            "actions": [
+                "Overcame adversity",
+                "Added to strength",
+                "Culminated in championship run"
+            ],
+            "keywords": [
+                "Each game",
+                "Each play",
+                "Adversity",
+                "Collective strength",
+                "Storied championship",
+                "NFL history"
+            ]
+        },
+        {
+            "sentence": "The Giants' season was a 16-game journey that turned a doubted team into world champions.",
+            "context": "Transformation of New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "16-game journey",
+                "Transformed team",
+                "Became world champions"
+            ],
+            "keywords": [
+                "Giants' season",
+                "16-game journey",
+                "Doubted team",
+                "World champions"
+            ]
+        },
+        {
+            "sentence": "The New York Giants' 2007 season was one of the most storied runs in NFL history, culminating in a victory in Super Bowl XLII against the previously undefeated New England Patriots.",
+            "context": "Historic Season of New York Giants",
+            "entities": [
+                "New York Giants",
+                "2007 Season",
+                "Super Bowl XLII",
+                "New England Patriots"
+            ],
+            "actions": [
+                "Storied run",
+                "Culminated in victory",
+                "Super Bowl XLII"
+            ],
+            "keywords": [
+                "New York Giants",
+                "2007 Season",
+                "Storied run",
+                "NFL history",
+                "Super Bowl XLII",
+                "Undefeated Patriots"
+            ]
+        },
+        {
+            "sentence": "The team's remarkable journey was characterized by a stout defense, a maturing quarterback, and a series of clutch performances that defied the odds.",
+            "context": "Characteristics of New York Giants' Success",
+            "entities": [],
+            "actions": [
+                "Remarkable journey",
+                "Stout defense",
+                "Maturing quarterback",
+                "Clutch performances",
+                "Defied odds"
+            ],
+            "keywords": [
+                "Team's journey",
+                "Stout defense",
+                "Maturing quarterback",
+                "Clutch performances",
+                "Defied odds"
+            ]
+        },
+        {
+            "sentence": "Defensively, the Giants were anchored by a strong front four, including defensive ends Michael Strahan and Osi Umenyiora.",
+            "context": "Defensive Strength of New York Giants",
+            "entities": [
+                "New York Giants",
+                "Michael Strahan",
+                "Osi Umenyiora"
+            ],
+            "actions": [
+                "Anchored by front four",
+                "Defensive ends contribution"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Strong front four",
+                "Michael Strahan",
+                "Osi Umenyiora"
+            ]
+        },
+        {
+            "sentence": "Strahan, who considered retirement before the season, provided veteran leadership and consistent pressure on opposing quarterbacks, contributing nine sacks during the regular season.",
+            "context": "Impact of Michael Strahan",
+            "entities": [
+                "Michael Strahan"
+            ],
+            "actions": [
+                "Considered retirement",
+                "Provided leadership",
+                "Consistent pressure",
+                "Nine sacks"
+            ],
+            "keywords": [
+                "Michael Strahan",
+                "Retirement",
+                "Veteran leadership",
+                "Pressure",
+                "Opposing quarterbacks",
+                "Nine sacks",
+                "Regular season"
+            ]
+        },
+        {
+            "sentence": "Umenyiora was a force on the other side, leading the team with 13 sacks and setting a franchise record with six sacks in one game against the Philadelphia Eagles.",
+            "context": "Defensive Impact of Osi Umenyiora",
+            "entities": [
+                "Osi Umenyiora",
+                "Philadelphia Eagles"
+            ],
+            "actions": [
+                "Leading team in sacks",
+                "Set franchise record",
+                "Six sacks in one game"
+            ],
+            "keywords": [
+                "Umenyiora",
+                "Defensive force",
+                "13 sacks",
+                "Franchise record",
+                "Philadelphia Eagles"
+            ]
+        },
+        {
+            "sentence": "Another standout on defense was Justin Tuck, who played both defensive end and defensive tackle, adding ten sacks of his own.",
+            "context": "Defensive Versatility of Justin Tuck",
+            "entities": [
+                "Justin Tuck"
+            ],
+            "actions": [
+                "Played defensive end and tackle",
+                "Added ten sacks"
+            ],
+            "keywords": [
+                "Justin Tuck",
+                "Defensive end",
+                "Defensive tackle",
+                "Ten sacks"
+            ]
+        },
+        {
+            "sentence": "Linebackers Antonio Pierce and Kawika Mitchell were central to the Giants' defense, with Pierce leading the team in tackles and providing a key interception against the Green Bay Packers in the NFC Championship game.",
+            "context": "Linebacker Contribution in New York Giants Defense",
+            "entities": [
+                "Antonio Pierce",
+                "Kawika Mitchell",
+                "Green Bay Packers",
+                "NFC Championship"
+            ],
+            "actions": [
+                "Led team in tackles",
+                "Key interception"
+            ],
+            "keywords": [
+                "Antonio Pierce",
+                "Kawika Mitchell",
+                "Giants defense",
+                "Tackles",
+                "Interception",
+                "Green Bay Packers",
+                "NFC Championship"
+            ]
+        },
+        {
+            "sentence": "The secondary featured cornerback Corey Webster, who had a resurgence late in the season, including a pivotal interception in overtime of the NFC Championship that set up the game-winning field goal.",
+            "context": "Defensive Impact of Corey Webster",
+            "entities": [
+                "Corey Webster",
+                "NFC Championship"
+            ],
+            "actions": [
+                "Resurgence in season",
+                "Pivotal interception",
+                "Set up game-winning field goal"
+            ],
+            "keywords": [
+                "Secondary",
+                "Corey Webster",
+                "Resurgence",
+                "Interception",
+                "NFC Championship",
+                "Game-winning field goal"
+            ]
+        },
+        {
+            "sentence": "Safety Gibril Wilson was also instrumental, providing solid coverage and run support throughout the season.",
+            "context": "Defensive Role of Gibril Wilson",
+            "entities": [
+                "Gibril Wilson"
+            ],
+            "actions": [
+                "Provided coverage and support",
+                "Instrumental role"
+            ],
+            "keywords": [
+                "Safety",
+                "Gibril Wilson",
+                "Coverage",
+                "Run support",
+                "Season"
+            ]
+        },
+        {
+            "sentence": "On offense, Eli Manning had a breakthrough year, throwing for 3,336 yards and 23 touchdowns during the regular season.",
+            "context": "Offensive Performance of Eli Manning",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Breakthrough year",
+                "Threw for 3,336 yards",
+                "23 touchdowns"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Offense",
+                "Breakthrough year",
+                "3,336 yards",
+                "23 touchdowns",
+                "Regular season"
+            ]
+        },
+        {
+            "sentence": "His growth was evident in the playoffs, where he threw six touchdowns to just one interception.",
+            "context": "Playoff Performance of Eli Manning",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Growth in playoffs",
+                "Threw six touchdowns",
+                "One interception"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Playoffs",
+                "Growth",
+                "Six touchdowns",
+                "One interception"
+            ]
+        },
+        {
+            "sentence": "Wide receiver Plaxico Burress was Manning's primary target, catching 70 passes for 1,025 yards and 12 touchdowns in the regular season.",
+            "context": "Receiving Impact of Plaxico Burress",
+            "entities": [
+                "Plaxico Burress"
+            ],
+            "actions": [
+                "Primary target",
+                "Caught 70 passes",
+                "1,025 yards",
+                "12 touchdowns"
+            ],
+            "keywords": [
+                "Wide receiver",
+                "Plaxico Burress",
+                "Primary target",
+                "70 passes",
+                "1,025 yards",
+                "12 touchdowns",
+                "Regular season"
+            ]
+        },
+        {
+            "sentence": "Amani Toomer also contributed significantly, with 59 receptions for 760 yards and three touchdowns.",
+            "context": "Contribution of Amani Toomer in Football",
+            "entities": [
+                "Amani Toomer"
+            ],
+            "actions": [
+                "Contributed",
+                "59 receptions",
+                "760 yards",
+                "Three touchdowns"
+            ],
+            "keywords": [
+                "Amani Toomer",
+                "Significant contribution",
+                "59 receptions",
+                "760 yards",
+                "Three touchdowns"
+            ]
+        },
+        {
+            "sentence": "The running game was powered by Brandon Jacobs, who rushed for 1,009 yards and four touchdowns, and Ahmad Bradshaw, who added energy and change-of-pace to the backfield.",
+            "context": "Running Game Strength in Football",
+            "entities": [
+                "Brandon Jacobs",
+                "Ahmad Bradshaw"
+            ],
+            "actions": [
+                "Powered running game",
+                "1,009 yards",
+                "Four touchdowns",
+                "Added energy",
+                "Change-of-pace"
+            ],
+            "keywords": [
+                "Running game",
+                "Brandon Jacobs",
+                "1,009 yards",
+                "Four touchdowns",
+                "Ahmad Bradshaw",
+                "Energy",
+                "Change-of-pace"
+            ]
+        },
+        {
+            "sentence": "The offensive line, featuring Chris Snee, Shaun O'Hara, and David Diehl, provided the necessary protection for Manning and opened up lanes for the run game.",
+            "context": "Role of the Offensive Line in Football",
+            "entities": [
+                "Chris Snee",
+                "Shaun O'Hara",
+                "David Diehl"
+            ],
+            "actions": [
+                "Provided protection",
+                "Opened up lanes"
+            ],
+            "keywords": [
+                "Offensive line",
+                "Chris Snee",
+                "Shaun O'Hara",
+                "David Diehl",
+                "Protection",
+                "Run game"
+            ]
+        },
+        {
+            "sentence": "The opening night for the NFL season was in September 2007",
+            "context": "NFL Season Opening",
+            "entities": [],
+            "actions": [
+                "Opening night",
+                "NFL season",
+                "September 2007"
+            ],
+            "keywords": [
+                "NFL season",
+                "Opening night",
+                "September 2007"
+            ]
+        },
+        {
+            "sentence": "The defending champion Colts were hosting the New Orleans Saints for the annual Thursday night opener.",
+            "context": "NFL Game Hosting",
+            "entities": [
+                "Colts",
+                "New Orleans Saints"
+            ],
+            "actions": [
+                "Defending champion",
+                "Hosting",
+                "Thursday night opener"
+            ],
+            "keywords": [
+                "Defending champion",
+                "Colts",
+                "Hosting",
+                "New Orleans Saints",
+                "Thursday night opener"
+            ]
+        },
+        {
+            "sentence": "During the course of pregame on NFL Network, the broadcast crew were asked for their Super Bowl predictions.",
+            "context": "Pregame Super Bowl Predictions",
+            "entities": [
+                "NFL Network",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Pregame",
+                "Broadcast crew",
+                "Super Bowl predictions"
+            ],
+            "keywords": [
+                "Pregame",
+                "NFL Network",
+                "Broadcast crew",
+                "Super Bowl predictions"
+            ]
+        },
+        {
+            "sentence": "Some predicted those exact two teams, the Colts and the Saints.",
+            "context": "Super Bowl Team Predictions",
+            "entities": [
+                "Colts",
+                "Saints"
+            ],
+            "actions": [
+                "Predicted",
+                "Colts and Saints"
+            ],
+            "keywords": [
+                "Predictions",
+                "Colts",
+                "Saints",
+                "Super Bowl"
+            ]
+        },
+        {
+            "sentence": "Others picked the Patriots, who would go on to be 16-0, and some others the Bears, who were coming off an NFC Championship.",
+            "context": "Team Performance Predictions in NFL",
+            "entities": [
+                "Patriots",
+                "Bears",
+                "NFC Championship"
+            ],
+            "actions": [
+                "Picked Patriots",
+                "16-0 record",
+                "Bears",
+                "NFC Championship"
+            ],
+            "keywords": [
+                "Patriots",
+                "16-0",
+                "Bears",
+                "NFC Championship"
+            ]
+        },
+        {
+            "sentence": "But no matter who was asked, absolutely NO one would have the New York Giants on that list.",
+            "context": "Underestimation of New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "Asked",
+                "Not predicted",
+                "Giants"
+            ],
+            "keywords": [
+                "Asked",
+                "No predictions",
+                "New York Giants"
+            ]
+        },
+        {
+            "sentence": "Heck, even having them make the playoffs seemed like a pipe dream.",
+            "context": "Perception of New York Giants' Playoff Chances",
+            "entities": [
+                "Playoffs"
+            ],
+            "actions": [
+                "Making playoffs",
+                "Seen as pipe dream"
+            ],
+            "keywords": [
+                "Playoffs",
+                "Pipe dream",
+                "Perception"
+            ]
+        },
+        {
+            "sentence": "Sure, the Giants were coming off back to back playoff years but that also meant back to back playoff embarrassment.",
+            "context": "Playoff History of New York Giants",
+            "entities": [
+                "New York Giants"
+            ],
+            "actions": [
+                "Back to back playoffs",
+                "Playoff embarrassment"
+            ],
+            "keywords": [
+                "New York Giants",
+                "Back to back playoffs",
+                "Playoff embarrassment"
+            ]
+        },
+        {
+            "sentence": "The leading rusher in team history Tiki Barber retired and went into broadcasting, and almost immediately bashed his former coach and quarterback.",
+            "context": "Career Transition of Tiki Barber",
+            "entities": [
+                "Tiki Barber"
+            ],
+            "actions": [
+                "Retired",
+                "Went into broadcasting",
+                "Bashed former coach and quarterback"
+            ],
+            "keywords": [
+                "Tiki Barber",
+                "Retirement",
+                "Broadcasting",
+                "Criticism",
+                "Former coach",
+                "Quarterback"
+            ]
+        },
+        {
+            "sentence": "He claimed coach Tom Coughlin's style forced him into retirement despite the fact that Barber had his best seasons under Coughlin and was a Pro Bowler every season.",
+            "context": "Retirement Context Involving Tom Coughlin",
+            "entities": [
+                "Tom Coughlin",
+                "Pro Bowler"
+            ],
+            "actions": [
+                "Claimed",
+                "Forced into retirement",
+                "Best seasons under Coughlin"
+            ],
+            "keywords": [
+                "Claim",
+                "Tom Coughlin",
+                "Forced retirement",
+                "Best seasons",
+                "Pro Bowler"
+            ]
+        },
+        {
+            "sentence": "But his criticisms of Coughlin were soft compared to that of his quarterback, Eli Manning.",
+            "context": "Criticism Context in Football",
+            "entities": [
+                "Eli Manning"
+            ],
+            "actions": [
+                "Criticisms of Coughlin",
+                "Compared to Eli Manning"
+            ],
+            "keywords": [
+                "Criticism",
+                "Tom Coughlin",
+                "Soft",
+                "Compared",
+                "Eli Manning"
+            ]
+        },
+        {
+            "sentence": "Questioning Manning's leadership abilities, Barber said that Manning's attempts were often \"comical.\"",
+            "context": "Leadership Critique in Football",
+            "entities": [
+                "Questioning Manning"
+            ],
+            "actions": [
+                "Questioning leadership abilities",
+                "Labelled as comical"
+            ],
+            "keywords": [
+                "Questioning",
+                "Leadership abilities",
+                "Manning",
+                "Comical"
+            ]
+        },
+        {
+            "sentence": "The Giants had pretty much bet the farm on Eli Manning, giving up multiple draft picks and their own draft pick of Philip Rivers to get him.",
+            "context": "Strategic Decisions by New York Giants",
+            "entities": [
+                "The Giants",
+                "Eli Manning",
+                "Philip Rivers"
+            ],
+            "actions": [
+                "Bet the farm on Manning",
+                "Gave up multiple draft picks"
+            ],
+            "keywords": [
+                "Giants",
+                "Eli Manning",
+                "Bet the farm",
+                "Draft picks",
+                "Philip Rivers"
+            ]
+        },
+        {
+            "sentence": "Then, in 2006, Manning won the Super Bowl...big brother Peyton Manning that is.",
+            "context": "Super Bowl Achievement",
+            "entities": [
+                "Super Bowl",
+                "Peyton Manning"
+            ],
+            "actions": [
+                "Peyton Manning won Super Bowl",
+                "2006"
+            ],
+            "keywords": [
+                "2006",
+                "Peyton Manning",
+                "Super Bowl",
+                "Win"
+            ]
+        },
+        {
+            "sentence": "After an 0-2 start in which the defense allowed a league high 80 points to the Cowboys and then the Packers, many would agree with Barber's views.",
+            "context": "Early Season Performance in Football",
+            "entities": [
+                "Cowboys",
+                "Packers"
+            ],
+            "actions": [
+                "0-2 start",
+                "Defense allowed 80 points",
+                "Agree with Barber's views"
+            ],
+            "keywords": [
+                "0-2 start",
+                "Defense",
+                "League high",
+                "80 points",
+                "Cowboys",
+                "Packers",
+                "Barber's views"
+            ]
+        },
+        {
+            "sentence": "Add on top a 17-3 halftime deficit in Washington the following week, and the Giants looked as good as dead.",
+            "context": "Challenging Game for New York Giants",
+            "entities": [
+                "Washington",
+                "Giants"
+            ],
+            "actions": [
+                "17-3 halftime deficit",
+                "Following week",
+                "Giants as good as dead"
+            ],
+            "keywords": [
+                "17-3 halftime deficit",
+                "Washington",
+                "Following week",
+                "Giants",
+                "As good as dead"
+            ]
+        },
+        {
+            "sentence": "The Giants defense stepped up in the second half, shutting out the Redskins and stopping them four straight times on the goal line to preserve a 24-17 Giants comeback win.",
+            "context": "Defensive Performance of New York Giants",
+            "entities": [
+                "The Giants",
+                "Redskins"
+            ],
+            "actions": [
+                "Defense stepped up",
+                "Shut out Redskins",
+                "Stopped on goal line",
+                "Preserved comeback win"
+            ],
+            "keywords": [
+                "Giants defense",
+                "Second half",
+                "Shutting out",
+                "Redskins",
+                "Goal line stops",
+                "24-17 comeback win"
+            ]
+        },
+        {
+            "sentence": "Against the rival Eagles, who put up 56 points the week before against Detroit (not exactly a huge accomplishment I know), the Giants defense sacked quarterback Donovan McNabb a league tying 12 times in a 16-3 win.",
+            "context": "Defensive Achievement of New York Giants",
+            "entities": [
+                "Eagles",
+                "Detroit",
+                "Donovan McNabb"
+            ],
+            "actions": [
+                "Defense sacked McNabb",
+                "League record sacks",
+                "16-3 win"
+            ],
+            "keywords": [
+                "Rival Eagles",
+                "56 points against Detroit",
+                "Giants defense",
+                "Donovan McNabb",
+                "12 sacks",
+                "16-3 win",
+                "League record"
+            ]
+        },
+        {
+            "sentence": "The Giants winning streak reached six games, but despite the strong start, there were doubts due to their past patterns of collapsing in the second half of the season.",
+            "context": "Season Performance of New York Giants",
+            "entities": [
+                "The Giants"
+            ],
+            "actions": [
+                "Winning streak",
+                "Six games",
+                "Doubts about second half",
+                "Collapsing pattern"
+            ],
+            "keywords": [
+                "Giants",
+                "Winning streak",
+                "Six games",
+                "Doubts",
+                "Collapsing",
+                "Second half",
+                "Season"
+            ]
+        },
+        {
+            "sentence": "Criticism intensified with back to back home losses to Dallas and Minnesota, especially after Eli Manning's poor performance including four interceptions, three of which were returned for touchdowns.",
+            "context": "Performance Critique in Football",
+            "entities": [
+                "Eli Manning",
+                "Dallas",
+                "Minnesota"
+            ],
+            "actions": [
+                "Back to back home losses",
+                "Criticism intensified",
+                "Four interceptions",
+                "Returned for touchdowns"
+            ],
+            "keywords": [
+                "Home losses",
+                "Dallas",
+                "Minnesota",
+                "Criticism",
+                "Eli Manning",
+                "Four interceptions",
+                "Touchdowns"
+            ]
+        },
+        {
+            "sentence": "Despite struggles at home, the Giants showed remarkable strength on the road, winning every away game after their opening loss in Dallas.",
+            "context": "Road Game Strength of New York Giants",
+            "entities": [
+                "Giants",
+                "Dallas"
+            ],
+            "actions": [
+                "Struggles at home",
+                "Strength on the road",
+                "Won away games"
+            ],
+            "keywords": [
+                "Giants",
+                "Home struggles",
+                "Road strength",
+                "Away game wins",
+                "Opening loss in Dallas"
+            ]
+        },
+        {
+            "sentence": "With the fifth seed in the playoffs, the Giants were in a position where they would not have the advantage of hosting a playoff game at home.",
+            "context": "Playoff Positioning of New York Giants",
+            "entities": [
+                "Giants",
+                "Playoffs"
+            ],
+            "actions": [
+                "Fifth seed",
+                "No home advantage",
+                "Playoff positioning"
+            ],
+            "keywords": [
+                "Fifth seed",
+                "Giants",
+                "Playoffs",
+                "No home advantage",
+                "Hosting playoff game"
+            ]
+        },
+        {
+            "sentence": "Facing Barber's twin brother Ronde in the first round in Tampa Bay, the Giants secured their first playoff victory since the 2000 NFC Championship Game with a 24-14 win, marking the start of their 2007 Revenge Tour.",
+            "context": "Playoff Victory of New York Giants",
+            "entities": [
+                "Facing Barber",
+                "Ronde Barber",
+                "Tampa Bay",
+                "2000 NFC Championship Game",
+                "2007 Revenge Tour"
+            ],
+            "actions": [
+                "Faced Ronde Barber",
+                "Secured playoff victory",
+                "24-14 win",
+                "Marked start of Revenge Tour"
+            ],
+            "keywords": [
+                "Ronde Barber",
+                "First round",
+                "Tampa Bay",
+                "Giants",
+                "First playoff victory",
+                "2000 NFC Championship Game",
+                "24-14 win",
+                "2007 Revenge Tour"
+            ]
+        },
+        {
+            "sentence": "In the divisional round against the top-seeded Cowboys in Dallas, the Giants' underdog mentality fueled their performance, defying expectations in a historic upset.",
+            "context": "Divisional Round Performance of New York Giants",
+            "entities": [
+                "Divisional Round",
+                "Cowboys",
+                "Dallas"
+            ],
+            "actions": [
+                "Faced top-seeded Cowboys",
+                "Underdog mentality",
+                "Defied expectations",
+                "Historic upset"
+            ],
+            "keywords": [
+                "Divisional round",
+                "Top-seeded Cowboys",
+                "Dallas",
+                "Giants",
+                "Underdog mentality",
+                "Performance",
+                "Historic upset"
+            ]
+        },
+        {
+            "sentence": "On January 13, the Giants overcame the odds, led by Manning's passing and a dominant defense, to defeat the Cowboys 21-17, challenging the prevailing narrative about their capabilities.",
+            "context": "Giants' Victory over Cowboys",
+            "entities": [
+                "January 13",
+                "Giants",
+                "Cowboys"
+            ],
+            "actions": [
+                "Overcame odds",
+                "Led by Manning's passing",
+                "Dominant defense",
+                "Defeated Cowboys",
+                "Challenged narrative"
+            ],
+            "keywords": [
+                "January 13",
+                "Giants",
+                "Odds",
+                "Manning",
+                "Passing",
+                "Dominant defense",
+                "Defeat",
+                "Cowboys",
+                "21-17",
+                "Narrative",
+                "Capabilities"
+            ]
+        },
+        {
+            "sentence": "The Patriots' 18-0 record and AFC Championship victory earlier in the day cast the NFC Championship as merely a prelude to their anticipated record-setting win.",
+            "context": "AFC and NFC Championship Context",
+            "entities": [
+                "Patriots",
+                "AFC Championship",
+                "NFC Championship"
+            ],
+            "actions": [
+                "Patriots 18-0 record",
+                "AFC Championship victory",
+                "NFC Championship as prelude"
+            ],
+            "keywords": [
+                "Patriots",
+                "18-0 record",
+                "AFC Championship",
+                "Victory",
+                "NFC Championship",
+                "Prelude",
+                "Record-setting win"
+            ]
+        },
+        {
+            "sentence": "In the NFC Championship in Green Bay, the Giants excelled statistically but faced a challenge due to Tynes' missed field goals, leading to an overtime situation in one of the coldest games in NFL history.",
+            "context": "NFC Championship Game Challenges",
+            "entities": [
+                "NFC Championship",
+                "Green Bay",
+                "Lawrence Tynes"
+            ],
+            "actions": [
+                "NFC Championship in Green Bay",
+                "Giants' statistical excellence",
+                "Challenge of missed field goals",
+                "Overtime situation"
+            ],
+            "keywords": [
+                "NFC Championship",
+                "Green Bay",
+                "Giants",
+                "Statistical performance",
+                "Challenge",
+                "Lawrence Tynes",
+                "Missed field goals",
+                "Overtime",
+                "Coldest games",
+                "NFL history"
+            ]
+        },
+        {
+            "sentence": "In overtime against the Packers, Tynes, unfazed by previous misses, successfully kicked the game-winning field goal, securing the Giants' place in the Super Bowl.",
+            "context": "Overtime Game-Winning Field Goal",
+            "entities": [
+                "Packers",
+                "Lawrence Tynes",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Overtime against Packers",
+                "Tynes kicked game-winning field goal",
+                "Secured Giants' Super Bowl spot"
+            ],
+            "keywords": [
+                "Overtime",
+                "Packers",
+                "Lawrence Tynes",
+                "Game-winning field goal",
+                "Giants",
+                "Super Bowl"
+            ]
+        },
+        {
+            "sentence": "The Giants faced the Patriots in the Super Bowl, a rematch of the regular season finale that had granted New England a historic 16-0 record, setting the stage for a postseason showdown.",
+            "context": "Super Bowl Matchup",
+            "entities": [
+                "The Giants",
+                "Super Bowl",
+                "New England Patriots"
+            ],
+            "actions": [
+                "Faced Patriots",
+                "Super Bowl rematch",
+                "Regular season finale",
+                "16-0 record"
+            ],
+            "keywords": [
+                "Giants",
+                "Patriots",
+                "Super Bowl",
+                "Rematch",
+                "Regular season finale",
+                "16-0 record",
+                "New England",
+                "Postseason showdown"
+            ]
+        },
+        {
+            "sentence": "Despite being considered two touchdown underdogs, the Giants were undeterred, facing a Patriots team that had already planned a victory parade and sought to trademark '19-0'.",
+            "context": "Underdog Mentality",
+            "entities": [
+                "Giants",
+                "Patriots"
+            ],
+            "actions": [
+                "Considered underdogs",
+                "Undeterred",
+                "Victory parade",
+                "Trademark '19-0'"
+            ],
+            "keywords": [
+                "Two touchdown underdogs",
+                "Giants",
+                "Patriots",
+                "Victory parade",
+                "Trademark '19-0'"
+            ]
+        },
+        {
+            "sentence": "The Giants thrived as underdogs, a role that suited their resilience and determination, especially against the overwhelming odds they faced in the Super Bowl.",
+            "context": "Resilience in Adversity",
+            "entities": [
+                "The Giants",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Thrived as underdogs",
+                "Displayed resilience",
+                "Overwhelming odds"
+            ],
+            "keywords": [
+                "Giants",
+                "Underdogs",
+                "Resilience",
+                "Determination",
+                "Overwhelming odds",
+                "Super Bowl"
+            ]
+        },
+        {
+            "sentence": "The inability of the Giants to replicate their success in the following season was marked by initial underdog perceptions and a contrasting outcome despite winning more games and securing home field advantage.",
+            "context": "Post-Super Bowl Season",
+            "entities": [
+                "Giants"
+            ],
+            "actions": [
+                "Inability to replicate success",
+                "Underdog perceptions",
+                "Contrasting outcome",
+                "Secured home field advantage"
+            ],
+            "keywords": [
+                "Giants",
+                "Replicate success",
+                "Underdog perceptions",
+                "Winning more games",
+                "Home field advantage",
+                "Contrasting outcome"
+            ]
+        },
+        {
+            "sentence": "Despite higher expectations and being favorites for a Super Bowl return, the Giants' subsequent season ended in disappointment, but it did not diminish the glory of their previous Super Bowl victory.",
+            "context": "Expectations and Outcome",
+            "entities": [
+                "Super Bowl",
+                "Giants"
+            ],
+            "actions": [
+                "Higher expectations",
+                "Favored for Super Bowl return",
+                "Ended in disappointment"
+            ],
+            "keywords": [
+                "Higher expectations",
+                "Favorites",
+                "Super Bowl return",
+                "Giants",
+                "Subsequent season",
+                "Disappointment",
+                "Previous Super Bowl victory"
+            ]
+        },
+        {
+            "sentence": "The 2007 season was a transformative journey for the Giants, transcending a mere Cinderella story to become an inspirational tale of overcoming adversity.",
+            "context": "Transformation of the Giants",
+            "entities": [
+                "2007 Giants"
+            ],
+            "actions": [
+                "Transformative journey",
+                "Transcended Cinderella story",
+                "Overcoming adversity"
+            ],
+            "keywords": [
+                "2007 season",
+                "Giants",
+                "Transformative journey",
+                "Cinderella story",
+                "Inspirational",
+                "Overcoming adversity"
+            ]
+        },
+        {
+            "sentence": "Eli Manning, once criticized and dubbed 'Eli the Terrible', notably elevated his performance under pressure, culminating in an unlikely Super Bowl MVP award.",
+            "context": "Eli Manning's Performance",
+            "entities": [
+                "Eli Manning",
+                "Super Bowl"
+            ],
+            "actions": [
+                "Criticism",
+                "Elevated performance",
+                "Under pressure",
+                "Super Bowl MVP"
+            ],
+            "keywords": [
+                "Eli Manning",
+                "Criticized",
+                "Eli the Terrible",
+                "Performance",
+                "Pressure",
+                "Super Bowl MVP"
+            ]
+        },
+        {
+            "sentence": "The Giants' story is a testament to the power of resilience and the potential for greatness, regardless of the odds or external opinions.",
+            "context": "Story of Resilience",
+            "entities": [
+                "The Giants"
+            ],
+            "actions": [
+                "Story",
+                "Testament to resilience",
+                "Potential for greatness"
+            ],
+            "keywords": [
+                "Giants",
+                "Story",
+                "Testament",
+                "Resilience",
+                "Greatness",
+                "Odds",
+                "External opinions"
+            ]
+        },
+        {
+            "sentence": "Brandon Jacobs is a great running back who added a lot of power to the team.",
+            "keywords": [
+                "Brandon",
+                "Jacobs",
+                "great",
+                "running",
+                "added",
+                "lot",
+                "power",
+                "team"
+            ],
+            "question_words": [
+                "is",
+                "who"
+            ]
+        }
+    ]
+}
