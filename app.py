@@ -71,7 +71,7 @@ def load_data(filename):
         return json.load(file)
 
 # Load data and initialize TF-IDF Vectorizer
-data = load_data('nygiants.json')
+data = load_data('giantsdata.json')
 preprocessed_data = preprocess_and_lemmatize(data)
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_data)
@@ -175,7 +175,7 @@ def add_new_data(sentence, data):
         "question_words": [token.text for token in doc if token.text.lower() in question_indicators]
     }
     data['data'].append(new_entry)
-    save_data('nygiants.json', data)  # Assuming you want to save to the file immediately
+    save_data('giantsdata.json', data)  # Assuming you want to save to the file immediately
     return "New information added: " + sentence
 
 

@@ -2208,7 +2208,7 @@
                 "Run game"
             ],
             "question_type": [
-                "general"
+                "who"
             ]
         },
         {
@@ -2630,7 +2630,7 @@
                 "Season"
             ],
             "question_type": [
-                "general"
+                "what"
             ]
         },
         {
@@ -3081,6 +3081,19 @@
         },
         {
             "sentence": "Brandon Jacobs is a great running back who added a lot of power to the team.",
+            "context": "Brandon Jacobs' Impact",
+            "entities": [
+                "Brandon Jacobs",
+                "running back",
+                "power",
+                "team",
+                "Brandon",
+                "Jacobs",
+                "running",
+                "back",
+                "added",
+                "lot"
+            ],
             "keywords": [
                 "Brandon",
                 "Jacobs",
@@ -3090,10 +3103,6 @@
                 "lot",
                 "power",
                 "team"
-            ],
-            "question_words": [
-                "is",
-                "who"
             ],
             "question_type": [
                 "who"
