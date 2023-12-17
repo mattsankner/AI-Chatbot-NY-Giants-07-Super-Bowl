@@ -23,6 +23,9 @@
                 "defensive end",
                 "held out",
                 "training camp"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -50,6 +53,10 @@
                 "resilience",
                 "complexities",
                 "Giants' locker room"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -75,6 +82,10 @@
                 "continuation",
                 "previous season",
                 "slide"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -97,6 +108,9 @@
                 "Giants",
                 "dramatic win",
                 "six-game winning streak"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -138,6 +152,9 @@
                 "quarterback",
                 "critics",
                 "clutch performer"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -171,6 +188,9 @@
                 "leadership roles",
                 "stronger bond",
                 "team"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -197,6 +217,9 @@
                 "Coughlin's softened demeanor",
                 "navigate",
                 "adversity"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -223,6 +246,9 @@
                 "Tiki Barber",
                 "running backs",
                 "running game"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -245,6 +271,9 @@
                 "lead back",
                 "receiving corps",
                 "cohesion"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -272,8 +301,7 @@
                 "unsung hero"
             ],
             "question_type": [
-                "what",
-                "how"
+                "general"
             ]
         },
         {
@@ -308,6 +336,9 @@
                 "Pre Season",
                 "predicted",
                 "prediction"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -341,6 +372,9 @@
                 "underdogs",
                 "underdog perception",
                 "perception"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -367,6 +401,9 @@
                 "Uncertainty",
                 "Giants",
                 "New York Giants"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -385,6 +422,9 @@
                 "Giants",
                 "Quarterback",
                 "Scrutiny"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -410,6 +450,9 @@
                 "Unfavorable Comparison",
                 "Contemporaries",
                 "Peyton Manning"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -431,6 +474,9 @@
                 "Legacy comparison",
                 "Eli Manning",
                 "Manning family"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -452,6 +498,9 @@
                 "Controversial reputation",
                 "Coaching style",
                 "Tom Coughlin"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -474,6 +523,10 @@
                 "Fan criticism",
                 "Commentator opinions",
                 "Dismissal calls"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -492,6 +545,9 @@
                 "Contract extension",
                 "Short leash",
                 "Another chance"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -512,6 +568,10 @@
                 "Coaching staff alterations",
                 "Strategic changes",
                 "Giants"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -530,6 +590,9 @@
                 "Promotion",
                 "Offensive Coordinator",
                 "Long-term tenure"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -550,6 +613,9 @@
                 "Steve Spagnuolo",
                 "Pivotal move",
                 "Giants' defense"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -567,6 +633,9 @@
                 "Coaching changes",
                 "Internal strife",
                 "Team dynamics"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -592,6 +661,9 @@
                 "Eli Manning",
                 "Coughlin",
                 "Giants"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -611,6 +683,9 @@
                 "Comical description",
                 "Calm response",
                 "Criticism handling"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -631,6 +706,10 @@
                 "Determination",
                 "Upset victories",
                 "Remarkable narrative"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -649,6 +728,10 @@
                 "Regular season",
                 "Week 17",
                 "New England Patriots"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -668,6 +751,9 @@
                 "Boost of confidence",
                 "Competitiveness",
                 "Giants"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -687,6 +773,9 @@
                 "Resilience",
                 "Focus",
                 "Giants"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -703,6 +792,9 @@
                 "Wild card victory",
                 "Defeat",
                 "Tampa Bay Buccaneers"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -721,6 +813,9 @@
                 "Efficient play",
                 "Stifling defense",
                 "Postseason tone"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -739,6 +834,9 @@
                 "185 yards",
                 "Two touchdowns",
                 "Silencing critics"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -758,6 +856,9 @@
                 "New York Giants",
                 "Dallas Cowboys",
                 "NFC top seed"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -779,6 +880,9 @@
                 "Formidable force",
                 "Pressuring Tony Romo",
                 "21-17 victory"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -797,6 +901,9 @@
                 "Leadership",
                 "Clutch play",
                 "Two touchdowns"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -815,6 +922,9 @@
                 "NFC Championship Game",
                 "Green Bay Packers",
                 "Giants toughness"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -831,6 +941,9 @@
                 "Tom Coughlin",
                 "Head Coach",
                 "Challenges"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -850,6 +963,9 @@
                 "Overtime victory",
                 "Lawrence Tynes",
                 "Field goal"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -868,6 +984,9 @@
                 "251 yards",
                 "NFC Championship Game",
                 "No interceptions"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -886,6 +1005,9 @@
                 "Super Bowl XLII",
                 "New York Giants",
                 "New England Patriots"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -906,6 +1028,9 @@
                 "Michael Strahan",
                 "Osi Umenyiora",
                 "Relentlessness"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -925,6 +1050,9 @@
                 "Pressure on Tom Brady",
                 "Sacking",
                 "Five times"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -947,6 +1075,9 @@
                 "David Tyree",
                 "Plaxico Burress",
                 "Touchdown"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -964,6 +1095,9 @@
                 "New York Giants",
                 "Super Bowl XLII",
                 "17-14 victory"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -986,6 +1120,9 @@
                 "Touchdowns",
                 "Interception",
                 "Championship-caliber"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1007,6 +1144,9 @@
                 "300 yards",
                 "Four touchdowns",
                 "Postseason"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1025,6 +1165,10 @@
                 "New York Giants",
                 "Overshadowed",
                 "High-profile teams"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1046,6 +1190,9 @@
                 "Michael Strahan",
                 "Foundation",
                 "Success"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1067,6 +1214,9 @@
                 "Aggressive",
                 "Relentless",
                 "Pass rush"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1087,6 +1237,9 @@
                 "Playoff success",
                 "Quarterback pressure",
                 "Crucial moments"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1111,8 +1264,7 @@
                 "do"
             ],
             "question_type": [
-                "what",
-                "how"
+                "what"
             ]
         },
         {
@@ -1131,6 +1283,10 @@
                 "Quarterbacking",
                 "Season",
                 "Playoffs"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1149,6 +1305,9 @@
                 "Super Bowl",
                 "Playoff games",
                 "Road challenges"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1175,6 +1334,9 @@
                 "NFC Championship",
                 "Packers",
                 "Determination"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1203,6 +1365,9 @@
                 "David Tyree",
                 "Game-winning",
                 "Plaxico Burress"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -1223,6 +1388,9 @@
                 "Prolific offense",
                 "14 points",
                 "NFL history"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1247,6 +1415,10 @@
                 "Game-winning",
                 "Giants lore",
                 "NFC Championship"
+            ],
+            "question_type": [
+                "who",
+                "where"
             ]
         },
         {
@@ -1265,6 +1437,9 @@
                 "Coaching",
                 "Effectiveness",
                 "Previous seasons"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1284,6 +1459,9 @@
                 "Connection",
                 "Resilience",
                 "Team spirit"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -1304,6 +1482,9 @@
                 "Strength",
                 "Extraordinary outcomes",
                 "Football philosophy"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1324,6 +1505,11 @@
                 "Setbacks",
                 "Unity",
                 "Determination"
+            ],
+            "question_type": [
+                "who",
+                "what",
+                "when"
             ]
         },
         {
@@ -1341,6 +1527,10 @@
                 "Early season",
                 "Resilience",
                 "Testament"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1359,6 +1549,9 @@
                 "Learning",
                 "Victories",
                 "Building blocks"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -1377,6 +1570,9 @@
                 "Expectations",
                 "Rhythm",
                 "Confidence"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1396,6 +1592,9 @@
                 "Super Bowl run",
                 "Transformation",
                 "Adversity"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1420,6 +1619,9 @@
                 "Doubt",
                 "NFL history",
                 "Championship season"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -1438,6 +1640,9 @@
                 "Giants",
                 "Turnaround",
                 "Written off"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1458,6 +1663,9 @@
                 "Come-from-behind victories",
                 "Defense",
                 "Force"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1479,6 +1687,10 @@
                 "Galvanized",
                 "Wins",
                 "League recognition"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1504,6 +1716,9 @@
                 "Pass rush",
                 "11 sacks",
                 "Four playoff games"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1523,6 +1738,9 @@
                 "Patriots offense",
                 "14 points",
                 "Super Bowl"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1542,6 +1760,9 @@
                 "Regular season",
                 "Resolve",
                 "Growth"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1561,6 +1782,10 @@
                 "Season",
                 "Foundation",
                 "Playoffs"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1579,6 +1804,9 @@
                 "Collective strength",
                 "Storied championship",
                 "NFL history"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1597,6 +1825,10 @@
                 "16-game journey",
                 "Doubted team",
                 "World champions"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1620,6 +1852,10 @@
                 "NFL history",
                 "Super Bowl XLII",
                 "Undefeated Patriots"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1639,6 +1875,9 @@
                 "Maturing quarterback",
                 "Clutch performances",
                 "Defied odds"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1658,6 +1897,9 @@
                 "Strong front four",
                 "Michael Strahan",
                 "Osi Umenyiora"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1680,6 +1922,9 @@
                 "Opposing quarterbacks",
                 "Nine sacks",
                 "Regular season"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -1700,6 +1945,9 @@
                 "13 sacks",
                 "Franchise record",
                 "Philadelphia Eagles"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -1717,6 +1965,9 @@
                 "Defensive end",
                 "Defensive tackle",
                 "Ten sacks"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -1740,6 +1991,9 @@
                 "Interception",
                 "Green Bay Packers",
                 "NFC Championship"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1761,6 +2015,10 @@
                 "Interception",
                 "NFC Championship",
                 "Game-winning field goal"
+            ],
+            "question_type": [
+                "who",
+                "where"
             ]
         },
         {
@@ -1779,6 +2037,9 @@
                 "Coverage",
                 "Run support",
                 "Season"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1799,6 +2060,9 @@
                 "3,336 yards",
                 "23 touchdowns",
                 "Regular season"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1818,6 +2082,9 @@
                 "Growth",
                 "Six touchdowns",
                 "One interception"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -1840,6 +2107,9 @@
                 "1,025 yards",
                 "12 touchdowns",
                 "Regular season"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1860,6 +2130,9 @@
                 "59 receptions",
                 "760 yards",
                 "Three touchdowns"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -1872,7 +2145,8 @@
                 "Backs",
                 "Backfield",
                 "Running Backs",
-                "Running Game"
+                "Running Game",
+                "performed"
             ],
             "actions": [
                 "Powered running game",
@@ -1892,7 +2166,7 @@
             ],
             "question_type": [
                 "who",
-                "how"
+                "what"
             ]
         },
         {
@@ -1934,7 +2208,7 @@
                 "Run game"
             ],
             "question_type": [
-                "who"
+                "general"
             ]
         },
         {
@@ -1950,6 +2224,10 @@
                 "NFL season",
                 "Opening night",
                 "September 2007"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -1972,8 +2250,7 @@
                 "Thursday night opener"
             ],
             "question_type": [
-                "who",
-                "what"
+                "general"
             ]
         },
         {
@@ -1993,6 +2270,9 @@
                 "NFL Network",
                 "Broadcast crew",
                 "Super Bowl predictions"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2011,6 +2291,9 @@
                 "Colts",
                 "Saints",
                 "Super Bowl"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2032,6 +2315,9 @@
                 "16-0",
                 "Bears",
                 "NFC Championship"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -2049,6 +2335,9 @@
                 "Asked",
                 "No predictions",
                 "New York Giants"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -2065,6 +2354,9 @@
                 "Playoffs",
                 "Pipe dream",
                 "Perception"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2081,6 +2373,9 @@
                 "New York Giants",
                 "Back to back playoffs",
                 "Playoff embarrassment"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2101,6 +2396,9 @@
                 "Criticism",
                 "Former coach",
                 "Quarterback"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -2121,6 +2419,9 @@
                 "Forced retirement",
                 "Best seasons",
                 "Pro Bowler"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -2139,6 +2440,9 @@
                 "Soft",
                 "Compared",
                 "Eli Manning"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2156,6 +2460,9 @@
                 "Leadership abilities",
                 "Manning",
                 "Comical"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2176,6 +2483,9 @@
                 "Bet the farm",
                 "Draft picks",
                 "Philip Rivers"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2194,6 +2504,9 @@
                 "Peyton Manning",
                 "Super Bowl",
                 "Win"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2216,6 +2529,9 @@
                 "Cowboys",
                 "Packers",
                 "Barber's views"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2236,6 +2552,9 @@
                 "Following week",
                 "Giants",
                 "As good as dead"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2258,6 +2577,9 @@
                 "Redskins",
                 "Goal line stops",
                 "24-17 comeback win"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2281,6 +2603,9 @@
                 "12 sacks",
                 "16-3 win",
                 "League record"
+            ],
+            "question_type": [
+                "who"
             ]
         },
         {
@@ -2303,6 +2628,9 @@
                 "Collapsing",
                 "Second half",
                 "Season"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2327,6 +2655,9 @@
                 "Eli Manning",
                 "Four interceptions",
                 "Touchdowns"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2347,6 +2678,9 @@
                 "Road strength",
                 "Away game wins",
                 "Opening loss in Dallas"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -2367,6 +2701,10 @@
                 "Playoffs",
                 "No home advantage",
                 "Hosting playoff game"
+            ],
+            "question_type": [
+                "what",
+                "where"
             ]
         },
         {
@@ -2394,6 +2732,9 @@
                 "2000 NFC Championship Game",
                 "24-14 win",
                 "2007 Revenge Tour"
+            ],
+            "question_type": [
+                "what"
             ]
         },
         {
@@ -2418,6 +2759,9 @@
                 "Underdog mentality",
                 "Performance",
                 "Historic upset"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2447,6 +2791,9 @@
                 "21-17",
                 "Narrative",
                 "Capabilities"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2470,6 +2817,9 @@
                 "NFC Championship",
                 "Prelude",
                 "Record-setting win"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2497,6 +2847,9 @@
                 "Overtime",
                 "Coldest games",
                 "NFL history"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -2519,6 +2872,9 @@
                 "Game-winning field goal",
                 "Giants",
                 "Super Bowl"
+            ],
+            "question_type": [
+                "where"
             ]
         },
         {
@@ -2544,6 +2900,10 @@
                 "16-0 record",
                 "New England",
                 "Postseason showdown"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -2565,6 +2925,9 @@
                 "Patriots",
                 "Victory parade",
                 "Trademark '19-0'"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2586,6 +2949,9 @@
                 "Determination",
                 "Overwhelming odds",
                 "Super Bowl"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2607,6 +2973,11 @@
                 "Winning more games",
                 "Home field advantage",
                 "Contrasting outcome"
+            ],
+            "question_type": [
+                "what",
+                "when",
+                "where"
             ]
         },
         {
@@ -2629,6 +3000,10 @@
                 "Subsequent season",
                 "Disappointment",
                 "Previous Super Bowl victory"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -2649,6 +3024,10 @@
                 "Cinderella story",
                 "Inspirational",
                 "Overcoming adversity"
+            ],
+            "question_type": [
+                "what",
+                "when"
             ]
         },
         {
@@ -2671,6 +3050,9 @@
                 "Performance",
                 "Pressure",
                 "Super Bowl MVP"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2692,6 +3074,9 @@
                 "Greatness",
                 "Odds",
                 "External opinions"
+            ],
+            "question_type": [
+                "general"
             ]
         },
         {
@@ -2709,25 +3094,10 @@
             "question_words": [
                 "is",
                 "who"
+            ],
+            "question_type": [
+                "who"
             ]
-        },
-        {
-            "sentence": "chris snee performance",
-            "keywords": [
-                "chris",
-                "snee",
-                "performance"
-            ],
-            "question_words": []
-        },
-        {
-            "sentence": "Plaxico Burress playoff",
-            "keywords": [
-                "Plaxico",
-                "Burress",
-                "playoff"
-            ],
-            "question_words": []
         }
     ]
 }

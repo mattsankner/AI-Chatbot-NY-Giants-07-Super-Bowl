@@ -76,32 +76,17 @@ preprocessed_data = preprocess_and_lemmatize(data)
 tfidf_vectorizer = TfidfVectorizer()
 tfidf_matrix = tfidf_vectorizer.fit_transform(preprocessed_data)
 
-# Regex pattern to extract information from queries
 def extract_query_info(query):
-    # Iterate through each player in player_info
     for player in player_info:
         if player.lower() in query.lower():
-
-             # Check for keywords related to highlights
-            if any(word in query.lower() for word in ["highlight", "highlights", "known for", "pinnacle", "best", "best play", "memory", "memorable", "notable", "famous", "iconic"]):
+            if any(word in query.lower() for word in ["highlight", "highlights", "pinnacle", "best play", "memorable"]):
                 return "highlights", player
-            
-            # Check for keywords related to performance
-            if any(word in query.lower() for word in ["statistics", "performance", "perform", "stats","stat","how did", "how was","how would", "play", "played", "plays", "playing", "game", "games", "gameday", "gamedays", "match", "matches", "matched", "matching", "season", "seasons", "how"]):
-                
-                # Check for keywords related to playoffs
-                if any(playoff_word in query.lower() for playoff_word in ["playoffs", "post-season","postseason", "post-season", "postseasons", "post-seasons", "postseason's", "post-season's", "postseasons'", "post-seasons'", "postseasons's", "post-seasons's"]):
-                    return "playoffs_performance", player
+            elif any(word in query.lower() for word in ["playoffs", "postseason", "playoff"]):
+                return "playoffs_performance", player
+            elif any(word in query.lower() for word in ["performance", "perform", "stats", "stat", "season", "game", "match", "how"]):
                 return "regular_performance", player
-
-            # Default to role if no specific keyword is found
-            return "role", player
-
-    # Handle general info queries
-    general_info_pattern = r"(?i)\btell me about\b\s*([\w\s']+)"
-    general_info_match = re.search(general_info_pattern, query)
-    if general_info_match:
-        return "general_info", general_info_match.group(1).strip()
+            else:
+                return "role", player
 
     return "general", None
 
@@ -109,10 +94,24 @@ def is_who_question(query):
     return 'who' in query.lower().split()
 
 def find_best_match(query, data):
-    if is_who_question(query):
+    query_type, entity = extract_query_info(query)
+
+    if entity in player_info:
+        if query_type == "highlights":
+            return player_info[entity].get("highlights", "No specific highlights data available.")
+        elif query_type == "playoffs_performance":
+            return player_info[entity].get("playoffs", "No specific playoffs data available.")
+        elif query_type == "regular_performance":
+            return player_info[entity].get("performance", "No specific performance data available.")
+        else:
+            return f"{entity} was a {player_info[entity]['role']} for the New York Giants."
+
+    elif is_who_question(query):
         return handle_who_question(query, data)
+
     else:
         return search_with_tf_idf(query, data)
+
     
 def handle_who_question(query, data):
     query_tokens = set(word_tokenize(query.lower()))

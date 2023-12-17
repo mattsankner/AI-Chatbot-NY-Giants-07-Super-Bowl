@@ -165,26 +165,75 @@ player_info = {
     },
     "Chris Snee": {
         "role": "offensive lineman",
-        "performance": "Chris Snee was an offensive lineman."
+        "performance": "Chris Snee had an above average regular season in run blocking and pass protection.",
+        "playoffs": "Chris Snee protected well in the playoffs.",
+        "highlights": "Chris Snee was named to the Pro Bowl."
     },
     "Shaun O'Hara": {
         "role": "offensive lineman",
-        "performance": "Shaun O'Hara was an offensive lineman."
+        "performance": "Shaun O'Hara was an offensive lineman.",
+        "playoffs": "Shaun O'Hara sparked the running game well in the playoffs.",
+        "highlights": "Shaun O'Hara was named to the Pro Bowl."
+
     },
     "David Diehl": {
         "role": "offensive lineman",
-        "performance": "David Diehl was an offensive lineman."
+        "performance": "David Diehl was an offensive lineman.",
+        "playoffs": "David Diehl protected well in the playoffs.",
+        "highlights": "David Diehl had is best game in the SuperBowl, spurring some key blocks."
     },
     "Rich Seubert": {
         "role": "offensive lineman",
-        "performance": "Rich Seubert was an offensive lineman."
+        "performance": "Rich Seubert was an offensive lineman.",
+        "playoffs": "Rich Seubert protected well in the playoffs.",
+        "highlights": "Rich Seubert had is best game in pass protection in the NFC Championship."
     },
     "Kareem McKenzie": {
         "role": "offensive lineman",
-        "performance": "Kareem McKenzie was an offensive lineman."
+        "performance": "Kareem McKenzie was an offensive lineman.",
+        "playoffs": "Kareem McKenzie protected well in the playoffs.",
+        "highlights": "Kareem McKenzie had is best game in pass protection in the NFC Championship."
     },
     "Lawrence Tynes": {
         "role": "kicker",
-        "performance": "Lawrence Tynes made 23 out of 27 field goals during the regular season."
+        "performance": "Lawrence Tynes made 23 out of 27 field goals during the regular season.",
+        "playoffs": "Lawrence Tynes made 8 out of 11 field goals during the playoffs.",
+        "highlights": "Lawrence Tynes kicked the Giants to victory in the NFC Championship Game and the Super Bowl. He first did it at Lambeau Field in Green Bay, Wisconsin, where he kicked a 47-yard field goal in overtime to win the game. He then did it again in the Super Bowl, kicking a 47-yard field goal in the final seconds to win the game."
     }
 }
+
+
+team_info = {
+    "Giants": {
+        "city": "New York",
+        "state": "New York",
+        "conference": "NFC",
+        "division": "East",
+        "stadium": "MetLife Stadium",
+        "super_bowl_wins": 4,
+        "super_bowl_losses": 1,
+        "super_bowl_appearances": 5,
+        "championships": 8,
+        "playoff_appearances": 32,
+        "playoff_wins": 24,
+        "playoff_losses": 25,
+        "playoff_ties": 0,
+        "regular_season_wins": 687,
+        "regular_season_losses": 595,
+        "regular_season_ties": 33,
+        "all_time_wins": 711,
+        "all_time_losses": 620,
+        "all_time_ties": 33,
+        "all_time_win_percentage": 0.534,
+        "all_time_playoff_wins": 24,
+        "all_time_playoff_losses": 25,
+        "all_time_playoff_ties": 0,
+        "all_time_playoff_win_percentage": 0.490,
+        "all_time_super_bowl_wins": 4,
+        "all_time_super_bowl_losses": 1,
+        "all_time_super_bowl_appearances": 5,
+        "all_time_super_bowl_win_percentage": 0.800,
+        "all_time_championships": 8,
+        "2007 regular season wins": 10,
+        "2007 regular season losses": 6
+    }}
