@@ -262,6 +262,7 @@ root.title("Simple Virtual Assistant")
 root.geometry("690x635")
 
 
+
 def bot_response(response):
     chat_window.config(state=tk.NORMAL)
     chat_window.insert(tk.END, "Agent: " + response + "\n")

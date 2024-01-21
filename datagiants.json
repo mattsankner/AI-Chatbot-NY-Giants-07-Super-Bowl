@@ -30,7 +30,6 @@
                 "New York Giants",
                 "Quarterback",
                 "Position"
-            
             ],
             "question_type": [
                 "who"
@@ -3174,6 +3173,26 @@
                 "who",
                 "what"
             ]
+        },
+        {
+            "sentence": "any highlights for eli manning",
+            "keywords": [
+                "highlights",
+                "eli",
+                "manning"
+            ],
+            "question_words": []
+        },
+        {
+            "sentence": "Sorry. Morgan Freeman was also on the offensive line.",
+            "keywords": [
+                "Sorry",
+                "Morgan",
+                "Freeman",
+                "offensive",
+                "line"
+            ],
+            "question_words": []
         }
     ]
 }
