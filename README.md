@@ -10,7 +10,7 @@ This chatbot is a specialized AI assistant designed to provide detailed informat
 - **Natural Language Processing:** Employs NLTK and SpaCy for text processing, including tokenization, lemmatization, and keyword extraction, enhancing the chatbot's understanding of user queries.
 - **Advanced Search Techniques:** Integrates TF-IDF Vectorization and cosine similarity measures to find the best match for user queries within the data.
 - **Player Information Dictionary:** Contains detailed information about players and coaches, including roles, performance statistics, playoff highlights, and more.
-- **GUI Interface:** Built using Tkinter, providing a user-friendly interface for interaction.
+- **Add Information to the Database:** User can add new information by typing normal sentences instead of a question.
 
 ![Screenshot of my app](/assets/chatbotexample2.png)
 
