@@ -1,4 +1,4 @@
-# New York Giants 2007 Super Bowl Championship Run Chatbot
+# New York Giants 2007 Super Bowl Championship Run AI Chatbot
 
 ## Overview
 This chatbot is a specialized AI assistant designed to provide detailed information about the New York Giants' 2007 Super Bowl Championship run. It is built using Python and incorporates various libraries to process and understand user queries, delivering relevant responses about players, games, and key moments from the championship run.
