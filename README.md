@@ -27,7 +27,7 @@ This chatbot is a specialized AI assistant designed to provide detailed informat
 - **Player Info Dictionary:** A Python dictionary (`player_info`) that stores detailed information about the players and coaches.
 - **User Input Processing:** The application processes user input for greetings, polite statements, repeated questions, and integrates a sophisticated method to search for answers or add new data.
 
-![Screenshot of my app](/assets/chatbotexample1.png)
+![Screenshot of my app](/assets/chatbotexample3.png)
 
 ## Installation and Usage
 1. **Dependencies:** Install the required Python libraries using `pip install nltk spacy numpy sklearn tkinter`.
